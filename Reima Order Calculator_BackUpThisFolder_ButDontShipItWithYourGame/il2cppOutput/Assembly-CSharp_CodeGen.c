@@ -1,0 +1,93 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void BasePageScript_Start_m7CCF3A552CC0D95705580E9D09DEE49E461E704C (void);
+extern void BasePageScript_UnderLinerButtonPressed_m8C2B369CB507CC342B8DBBCC6C785E91A7B8651B (void);
+extern void BasePageScript_PageReset_m486B683FECC7E475DC4274EC77D4A58DFC9BCDDF (void);
+extern void BasePageScript__ctor_m12231FBE94C30F4455B9F11FE2862B59FAD94961 (void);
+extern void BaseTableScript_OpenTableButton_mB300478C6512BDF669666E6D0DCEE49A1E71E83C (void);
+extern void BaseTableScript__ctor_m8D46D0E099169D4D4D871530DB1A37B5A2723F7C (void);
+extern void EscapeButtonScript_EscapeInitialized_m1B38CBE854CB7692EA2C1E1EF026658FD038CD12 (void);
+extern void EscapeButtonScript__ctor_mD73402F6BCED74CDCF0687B0050FC3E0B85DB799 (void);
+extern void LineObjectScript__ctor_mBFFAAA35739E430CCCA09604949EED518017A909 (void);
+extern void ManagerScript_Start_m9E79CB01D56FF6B7130644F7ADEB22D7A525F9C2 (void);
+extern void ManagerScript_InitializeBaseTables_m1EB6E5FDC7D872CEDC506503C6353B340265FF2D (void);
+extern void ManagerScript_EscapeButtonPressed_m5D71D4AD20A21B51442E3169CF7BA81C5320F3AE (void);
+extern void ManagerScript_InitializeBasePages_m00A1BF6F5F47A7F95C496C6112C441917A468683 (void);
+extern void ManagerScript_InitializeLoad_m0502D3BB065906D76A91509CF7CBECD8FD95CDB9 (void);
+extern void ManagerScript_OpenPage_m43F5003476B4DC9D2BE83267E7099053071587F7 (void);
+extern void ManagerScript__ctor_mF92C13771AF3B7B0F08CF08A3383CF61E8C12A4F (void);
+extern void SaveData__ctor_m7E683A9CD703CB4058EEA6C1BBC22F4EDE2F76E5 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[19] = 
+{
+	BasePageScript_Start_m7CCF3A552CC0D95705580E9D09DEE49E461E704C,
+	BasePageScript_UnderLinerButtonPressed_m8C2B369CB507CC342B8DBBCC6C785E91A7B8651B,
+	BasePageScript_PageReset_m486B683FECC7E475DC4274EC77D4A58DFC9BCDDF,
+	BasePageScript__ctor_m12231FBE94C30F4455B9F11FE2862B59FAD94961,
+	BaseTableScript_OpenTableButton_mB300478C6512BDF669666E6D0DCEE49A1E71E83C,
+	BaseTableScript__ctor_m8D46D0E099169D4D4D871530DB1A37B5A2723F7C,
+	EscapeButtonScript_EscapeInitialized_m1B38CBE854CB7692EA2C1E1EF026658FD038CD12,
+	EscapeButtonScript__ctor_mD73402F6BCED74CDCF0687B0050FC3E0B85DB799,
+	LineObjectScript__ctor_mBFFAAA35739E430CCCA09604949EED518017A909,
+	ManagerScript_Start_m9E79CB01D56FF6B7130644F7ADEB22D7A525F9C2,
+	ManagerScript_InitializeBaseTables_m1EB6E5FDC7D872CEDC506503C6353B340265FF2D,
+	ManagerScript_EscapeButtonPressed_m5D71D4AD20A21B51442E3169CF7BA81C5320F3AE,
+	ManagerScript_InitializeBasePages_m00A1BF6F5F47A7F95C496C6112C441917A468683,
+	ManagerScript_InitializeLoad_m0502D3BB065906D76A91509CF7CBECD8FD95CDB9,
+	ManagerScript_OpenPage_m43F5003476B4DC9D2BE83267E7099053071587F7,
+	ManagerScript__ctor_mF92C13771AF3B7B0F08CF08A3383CF61E8C12A4F,
+	SaveData__ctor_m7E683A9CD703CB4058EEA6C1BBC22F4EDE2F76E5,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[19] = 
+{
+	15308,
+	11452,
+	15308,
+	15308,
+	15308,
+	15308,
+	15308,
+	15308,
+	15308,
+	15308,
+	15308,
+	15308,
+	15308,
+	15308,
+	11452,
+	15308,
+	15308,
+	26900,
+	15308,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	19,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
