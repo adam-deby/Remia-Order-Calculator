@@ -20,9 +20,6 @@ public class ManagerScript : MonoBehaviour
 
     private void Start()
     {
-
-        Debug.Log("ON: " + _pageOnPosition.position);
-        Debug.Log("OFF: " + _pageOffPosition.position);
         InitializeBaseTables();
         InitializeBasePages();
         if (_hasSaved) InitializeLoad();
