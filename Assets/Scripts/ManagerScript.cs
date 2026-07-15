@@ -7,24 +7,26 @@ public class ManagerScript : MonoBehaviour
     [SerializeField] private Transform[] _basePages;
     
     [Header("Teleport Positions")]
-    [SerializeField] private Transform _pageOnPosition;
-    [SerializeField] private Transform _pageOffPosition;
+    public Transform _pageOnPosition;
+    public Transform _pageOffPosition;
 
     [Header("Buttons")]
     [SerializeField] private GameObject _escapeButton;
 
     private bool _hasSaved;
+    private int _currentPage = -1;
+    private BasePageScript pageScript;
 
-    public enum Stage { Main, Table, Page }
-    public Stage _stage;
 
     private void Start()
     {
+
+        Debug.Log("ON: " + _pageOnPosition.position);
+        Debug.Log("OFF: " + _pageOffPosition.position);
         InitializeBaseTables();
         InitializeBasePages();
         if (_hasSaved) InitializeLoad();
         _escapeButton.SetActive(false);
-        _stage = Stage.Main;
     }
 
     #region Initializers
@@ -43,29 +45,23 @@ public class ManagerScript : MonoBehaviour
 
     public void EscapeButtonPressed()
     {
-        switch (_stage)
-        {
-            case Stage.Page:
+        if (_currentPage == -1) return;
 
-                break;
-            case Stage.Table:
-                //InitializeBasePages();
-                //_escapeButton.SetActive(false);
-                break;
-            default:
-                InitializeBasePages();
-                _escapeButton.SetActive(false); break;
-        }
+        BasePageScript script = _basePages[_currentPage].GetComponent<BasePageScript>();
+
+        script.PageReset();
+
+        _basePages[_currentPage].position = _pageOffPosition.position;
+
+        _currentPage = -1;
+        _escapeButton.SetActive(false);
     }
+
     private void InitializeBasePages()
     {
-        for (int i=0;i<_basePages.Length;i++)
+        for (int i = 0; i < _basePages.Length; i++)
         {
-            BasePageScript script = _basePages[i].GetComponent<BasePageScript>();
-            script.PageReset();
-            _basePages[i].gameObject.transform.position = _pageOffPosition.position;
-
-            
+            _basePages[i].position = _pageOffPosition.position;
         }
     }
 
@@ -83,7 +79,9 @@ public class ManagerScript : MonoBehaviour
 
     public void OpenPage(int number)
     {
-        _basePages[number].transform.position = _pageOnPosition.position;
+        _currentPage = number;
+
+        _basePages[number].position = _pageOnPosition.position;
         _escapeButton.SetActive(true);
     }
 }
