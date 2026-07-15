@@ -51,18 +51,10 @@ public class BasePageScript : MonoBehaviour
 
     public void PageReset()
     {
-        Debug.Log("BASE PAGE ON: " + _lineOnPosition.position);
-        Debug.Log("BASE PAGE OFF: " + _lineOffPosition.position);
-
         for (int i = 0; i < _baseLines.Count; i++)
         {
             if (_baseLines[i] == null) continue;
-
-            Debug.Log("LINE BEFORE: " + _baseLines[i].transform.position);
-
             _baseLines[i].transform.position = _lineOffPosition.position;
-
-            Debug.Log("LINE AFTER: " + _baseLines[i].transform.position);
         }
     }
 
