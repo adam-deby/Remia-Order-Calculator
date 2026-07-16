@@ -15,7 +15,7 @@ public class ManagerScript : MonoBehaviour
 
     private int _currentPage = -1;
     private BasePageScript pageScript;
-    private SaveData[] _loadedPages;
+    private SaveData[,] _loadedPages;
 
 
     private void Start()
@@ -23,6 +23,7 @@ public class ManagerScript : MonoBehaviour
         InitializeBaseTables();
         InitializeBasePages();
         InitializeLoad();
+        FillOrderNumbers(false);
         _escapeButton.SetActive(false);
     }
 
@@ -61,17 +62,19 @@ public class ManagerScript : MonoBehaviour
         _basePages[_currentPage].position = _pageOffPosition.position;
 
         _currentPage = -1;
+        FillOrderNumbers(false);
         _escapeButton.SetActive(false);
     }
 
     public void InitializeLoad()
     {
-        _loadedPages = new SaveData[_basePages.Length];
+        _loadedPages = new SaveData[_baseTables.Length,_basePages.Length];
 
         for (int i = 0; i < _basePages.Length; i++)
         {
             BasePageScript page = _basePages[i].GetComponent<BasePageScript>();
-            string path = Path.Combine(Application.persistentDataPath, $"BasePage{page._pageIndex}.json");
+            BaseTableScript table = _baseTables[i].GetComponent<BaseTableScript>();
+            string path = Path.Combine(Application.persistentDataPath, $"BaseTable{table._baseTableNumber}BasePage{page._pageIndex}.json");
 
             if (!File.Exists(path)) continue;
 
@@ -96,13 +99,13 @@ public class ManagerScript : MonoBehaviour
 
             File.WriteAllText(path, json);
 
-            _loadedPages[i] = JsonUtility.FromJson<SaveData>(json);
+            _loadedPages[table._baseTableNumber, page._pageIndex] = JsonUtility.FromJson<SaveData>(json);
         }
     }
 
-    public void LoadLine(int pageIndex, int lineIndex, LineObjectScript line)
+    public void LoadLine(int tableIndex, int pageIndex, int lineIndex, LineObjectScript line)
     {
-        SaveData saveData = _loadedPages[pageIndex];
+        SaveData saveData = _loadedPages[tableIndex,pageIndex];
 
         if (saveData == null) return;
 
@@ -131,7 +134,8 @@ public class ManagerScript : MonoBehaviour
         for (int i = 0; i < _basePages.Length; i++)
         {
             BasePageScript page = _basePages[i].GetComponent<BasePageScript>();
-            SaveData saveData = _loadedPages[page._pageIndex];
+            BaseTableScript table = _baseTables[i].GetComponent<BaseTableScript>();
+            SaveData saveData = _loadedPages[table._baseTableNumber,page._pageIndex];
 
             if (saveData == null) saveData = new SaveData();
 
@@ -152,12 +156,43 @@ public class ManagerScript : MonoBehaviour
                 saveData._modify_bucket_input_text[j] = line._modify_bucket_input_text.text;
             }
 
-            _loadedPages[page._pageIndex] = saveData;
+            _loadedPages[table._baseTableNumber, page._pageIndex] = saveData;
             string json = JsonUtility.ToJson(saveData);
 
-            string path = Path.Combine(Application.persistentDataPath,$"BasePage{page._pageIndex}.json");
+            string path = Path.Combine(Application.persistentDataPath, $"BaseTable{table._baseTableNumber}BasePage{page._pageIndex}.json");
 
             File.WriteAllText(path, json);
+        }
+    }
+
+    public void FillOrderNumbers(bool deleted)
+    {
+        for (int i = 0; i < _baseTables.Length; i++)
+        {
+            BaseTableScript table = _baseTables[i].GetComponent<BaseTableScript>();
+            BasePageScript page = table._basePage.GetComponent<BasePageScript>();
+            SaveData saveData = _loadedPages[table._baseTableNumber, table._basePage._pageIndex];
+
+            if (saveData == null) continue;
+
+            if (!deleted)
+            {
+                Debug.Log(deleted);
+                for (int j = 0; j < table._orderNumberText.Length; j++)
+                {
+                    table._orderNumberText[j].text = string.IsNullOrEmpty(saveData._orderNumberText[j])
+                        ? "_____.___" : saveData._orderNumberText[j];
+                }
+            }
+            else
+            {
+                Debug.Log(deleted);
+                for (int j = 0; j < table._orderNumberText.Length; j++)
+                {
+                    if (page._baseLines[j] == null) table._orderNumberText[j].text = "_____.___";
+                    else table._orderNumberText[j].text = saveData._orderNumberText[j];
+                }
+            }
         }
     }
 }

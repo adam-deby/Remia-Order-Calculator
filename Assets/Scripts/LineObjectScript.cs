@@ -170,6 +170,18 @@ public class LineObjectScript : MonoBehaviour
 
     public void DeleteOrderButton()
     {
+        _order_main_text.text = "";
+        _modify_bucket_input_text.text = "";
+        _pallets_done_text.text = "";
+        _pallets_total_text.text = "";
+        _buckets_total_text.text = "";
+        _buckets_left_text.text = "";
+        _orderNumberText.text = "";
+        _bucketsText.text = "";
+        _capsText.text = "";
+        _boxesText.text = "";
+        manager.BasePageSave();
+
         pageScript.BaseLinesSort();
         Destroy(this.gameObject);
     }

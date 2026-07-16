@@ -9,6 +9,7 @@ public class BasePageScript : MonoBehaviour
 
     [SerializeField] private GameObject _baseLineObject;
     [SerializeField] private Transform _container;
+    [SerializeField] private BaseTableScript _tableScript;
     public int _pageIndex;
 
     private ManagerScript manager;
@@ -41,7 +42,8 @@ public class BasePageScript : MonoBehaviour
 
         GameObject line = _baseLines[number];
         LineObjectScript script = line.GetComponent<LineObjectScript>();
-        manager.LoadLine(_pageIndex, number, script);
+
+        manager.LoadLine(_tableScript._baseTableNumber, _pageIndex, number, script);
         
         yield return new WaitForSeconds(0.5f);
         
@@ -71,5 +73,9 @@ public class BasePageScript : MonoBehaviour
         _baseLines.RemoveAll(gameObject => gameObject == null);
 
         while (_baseLines.Count < 4) _baseLines.Add(null);
+
+        manager.BasePageSave();
+        manager.FillOrderNumbers(true);
     }
+    
 }
