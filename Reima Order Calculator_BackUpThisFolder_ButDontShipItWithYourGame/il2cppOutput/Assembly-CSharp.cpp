@@ -28,9 +28,7 @@ struct VirtualFuncInvoker0
 };
 
 struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
-struct Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3;
 struct Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180;
-struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
 struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
 struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
 struct List_1_tC3125D359B5BFC11439B1C3D9D6620A529B03EF0;
@@ -67,6 +65,7 @@ struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
 struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
+struct TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F;
 struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
 struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
 struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
@@ -74,19 +73,15 @@ struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
 struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
 struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
+struct SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9;
 struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
 struct BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3;
 struct BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77;
-struct Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
 struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
-struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57;
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
-struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D;
-struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
-struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A;
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
 struct EscapeButtonScript_t89A3F0C1C23216BC5114C869F6843FA3245B08BB;
 struct Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB;
@@ -94,7 +89,6 @@ struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
-struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
 struct IScrollHandler_t762CB73017D561E11CF6759ED9FD8C9F24B3D13F;
 struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
@@ -107,7 +101,6 @@ struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
 struct MethodInfo_t;
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
-struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472;
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
 struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
 struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
@@ -131,7 +124,6 @@ struct TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859;
 struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9;
 struct TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5;
 struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
-struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4;
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A;
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
@@ -155,13 +147,15 @@ struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
 
 IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Predicate_1_t0729156EF7F8B2C367BA6C92C091D97CDEC0B53F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CBaseLineSortNumeratorU3Ed__12_t56A935E7ED47241FD49ADE9AD548DA21CBEB9F66_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t752BEAB90A40F003EFB1CF44FA1277D0CB556205_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CUnderLinerButtonPressedNumeratorU3Ed__9_t00B5FDEBBC2C40C5A68498389A40A424AD958AC4_il2cpp_TypeInfo_var;
@@ -169,24 +163,19 @@ IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C6
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3E5587BD54BFFD35756D8614FD74B433C7196737DE829D182AE9948F885A3092_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____6E3C70F9C36F68CD3BC1E74F7C532CE0D40CAAF7881AACAF2A3BF06D8430B27B_FieldInfo_var;
-IL2CPP_EXTERN_C String_t* _stringLiteral0133A431B27A6D11119B0474097113BBD7110B90;
 IL2CPP_EXTERN_C String_t* _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748;
 IL2CPP_EXTERN_C String_t* _stringLiteral3A0E45C3ED1EEF9373E3375EE9B05AE40D0C9ADC;
-IL2CPP_EXTERN_C String_t* _stringLiteral3F3FD3EFA55E39E450A9A4CE66CD7B259403D44E;
-IL2CPP_EXTERN_C String_t* _stringLiteral50275DE48A6DA252A3D08AF54F3AB4673E3C0CCB;
-IL2CPP_EXTERN_C String_t* _stringLiteral52F6D8D86BE461250F33D568AAB23DDB68F37769;
-IL2CPP_EXTERN_C String_t* _stringLiteral62F76ABACF4198598ECF4AF90626FDA6060B5E1A;
 IL2CPP_EXTERN_C String_t* _stringLiteral7831B7715AA09703BEA6DAB66D910E60EB689C3F;
-IL2CPP_EXTERN_C String_t* _stringLiteral88A820E8352B057A39566BC1AB02044E942FB5A4;
+IL2CPP_EXTERN_C String_t* _stringLiteralB972D185E9E16578B5940AB37DC2598D5FB43875;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-IL2CPP_EXTERN_C String_t* _stringLiteralE3B5A7F22E4949911A49EC00F567C6F689FE2129;
+IL2CPP_EXTERN_C String_t* _stringLiteralDDEEFC930F66A5B2EF1F6605B73FE01CD78977D3;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
-IL2CPP_EXTERN_C String_t* _stringLiteralF5911D035D99B19B8B7F76A3CB2654BAA4BD3341;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mA9508D400B218F25B31CDECF5D34C2E4F7A8C6AB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C_m3C0361A338E41D0C851083AE8D6E0C3EF8D47135_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_TisSaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_m1AB04EBB393AB40EC3FB9FC2B514F72AABBDAD8B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LineObjectScript_ChangeText_mBA86E3B667B223976FCA2F168F77045FF825051C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAll_m1D3CBAACE91557F72BF74D9572E9E7A435E5F338_RuntimeMethod_var;
@@ -199,10 +188,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CBaseLineSortNumeratorU3Ed__12_System_Col
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CBaseLineSortNumeratorU3Eb__12_0_m0464E6AD1F3DE75A3C1251C3F28CC80C19986349_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CUnderLinerButtonPressedNumeratorU3Ed__9_System_Collections_IEnumerator_Reset_m79919E679AFEC17F76D2C6F26DCBD152F5AE1B9B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F_RuntimeMethod_var;
-struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
-struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
-struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
-struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -211,7 +196,10 @@ struct Exception_t_marshaled_pinvoke;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F;
 struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+struct SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -241,135 +229,17 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
 {
 };
-struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0  : public RuntimeObject
-{
-	bool ___m_isReadOnly;
-	int32_t ___cultureID;
-	int32_t ___parent_lcid;
-	int32_t ___datetime_index;
-	int32_t ___number_index;
-	int32_t ___default_calendar_type;
-	bool ___m_useUserOverride;
-	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
-	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
-	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
-	String_t* ___m_name;
-	String_t* ___englishname;
-	String_t* ___nativename;
-	String_t* ___iso3lang;
-	String_t* ___iso2lang;
-	String_t* ___win3lang;
-	String_t* ___territory;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___native_calendar_names;
-	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
-	void* ___textinfo_data;
-	int32_t ___m_dataItem;
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___parent_culture;
-	bool ___constructed;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___cached_serialized_form;
-	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData;
-	bool ___m_isInherited;
-};
-struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke
-{
-	int32_t ___m_isReadOnly;
-	int32_t ___cultureID;
-	int32_t ___parent_lcid;
-	int32_t ___datetime_index;
-	int32_t ___number_index;
-	int32_t ___default_calendar_type;
-	int32_t ___m_useUserOverride;
-	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
-	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
-	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
-	char* ___m_name;
-	char* ___englishname;
-	char* ___nativename;
-	char* ___iso3lang;
-	char* ___iso2lang;
-	char* ___win3lang;
-	char* ___territory;
-	char** ___native_calendar_names;
-	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
-	void* ___textinfo_data;
-	int32_t ___m_dataItem;
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___parent_culture;
-	int32_t ___constructed;
-	Il2CppSafeArray* ___cached_serialized_form;
-	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke* ___m_cultureData;
-	int32_t ___m_isInherited;
-};
-struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com
-{
-	int32_t ___m_isReadOnly;
-	int32_t ___cultureID;
-	int32_t ___parent_lcid;
-	int32_t ___datetime_index;
-	int32_t ___number_index;
-	int32_t ___default_calendar_type;
-	int32_t ___m_useUserOverride;
-	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
-	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
-	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
-	Il2CppChar* ___m_name;
-	Il2CppChar* ___englishname;
-	Il2CppChar* ___nativename;
-	Il2CppChar* ___iso3lang;
-	Il2CppChar* ___iso2lang;
-	Il2CppChar* ___win3lang;
-	Il2CppChar* ___territory;
-	Il2CppChar** ___native_calendar_names;
-	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
-	void* ___textinfo_data;
-	int32_t ___m_dataItem;
-	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___parent_culture;
-	int32_t ___constructed;
-	Il2CppSafeArray* ___cached_serialized_form;
-	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com* ___m_cultureData;
-	int32_t ___m_isInherited;
-};
-struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472  : public RuntimeObject
-{
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___numberGroupSizes;
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___currencyGroupSizes;
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___percentGroupSizes;
-	String_t* ___positiveSign;
-	String_t* ___negativeSign;
-	String_t* ___numberDecimalSeparator;
-	String_t* ___numberGroupSeparator;
-	String_t* ___currencyGroupSeparator;
-	String_t* ___currencyDecimalSeparator;
-	String_t* ___currencySymbol;
-	String_t* ___ansiCurrencySymbol;
-	String_t* ___nanSymbol;
-	String_t* ___positiveInfinitySymbol;
-	String_t* ___negativeInfinitySymbol;
-	String_t* ___percentDecimalSeparator;
-	String_t* ___percentGroupSeparator;
-	String_t* ___percentSymbol;
-	String_t* ___perMilleSymbol;
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___nativeDigits;
-	int32_t ___m_dataItem;
-	int32_t ___numberDecimalDigits;
-	int32_t ___currencyDecimalDigits;
-	int32_t ___currencyPositivePattern;
-	int32_t ___currencyNegativePattern;
-	int32_t ___numberNegativePattern;
-	int32_t ___percentPositivePattern;
-	int32_t ___percentNegativePattern;
-	int32_t ___percentDecimalDigits;
-	int32_t ___digitSubstitution;
-	bool ___isReadOnly;
-	bool ___m_useUserOverride;
-	bool ___m_isInvariant;
-	bool ___validForParseAsNumber;
-	bool ___validForParseAsCurrency;
-};
 struct SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29  : public RuntimeObject
 {
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____orderNumberText;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____bucketsText;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____capsText;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____boxesText;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____palletsDoneText;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____palletsTotalText;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____bucketsTotalText;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____bucketsLeftText;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____modify_bucket_input_text;
 };
 struct String_t  : public RuntimeObject
 {
@@ -418,6 +288,8 @@ struct U3CUnderLinerButtonPressedNumeratorU3Ed__9_t00B5FDEBBC2C40C5A68498389A40A
 	RuntimeObject* ___U3CU3E2__current;
 	BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* ___U3CU3E4__this;
 	int32_t ___number;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3ClineU3E5__2;
+	LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* ___U3CscriptU3E5__3;
 };
 struct TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C 
 {
@@ -1387,14 +1259,16 @@ struct BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3  : public MonoBe
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____baseLines;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____baseLineObject;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____container;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____lineOnPosition;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____lineOffPosition;
+	BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* ____tableScript;
+	int32_t ____pageIndex;
 	ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* ___manager;
 };
 struct BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* ___manager;
 	int32_t ____baseTableNumber;
+	BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* ____basePage;
+	TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* ____orderNumberText;
 };
 struct EscapeButtonScript_t89A3F0C1C23216BC5114C869F6843FA3245B08BB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1433,9 +1307,9 @@ struct ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C  : public MonoBeh
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____pageOnPosition;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____pageOffPosition;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____escapeButton;
-	bool ____hasSaved;
 	int32_t ____currentPage;
 	BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* ___pageScript;
+	SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9* ____loadedPages;
 };
 struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1822,22 +1696,6 @@ struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49
 	__StaticArrayInitTypeSizeU3D260_t81ADE76414706230F44C318351185AC8B7C72247 ___3E5587BD54BFFD35756D8614FD74B433C7196737DE829D182AE9948F885A3092;
 	__StaticArrayInitTypeSizeU3D120_tCE5F35B252DE449EDE2BA38EFA855ABFBF94EF89 ___6E3C70F9C36F68CD3BC1E74F7C532CE0D40CAAF7881AACAF2A3BF06D8430B27B;
 };
-struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
-{
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info;
-	RuntimeObject* ___shared_table_lock;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture;
-	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number;
-	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX;
-	bool ___IsTaiwanSku;
-};
-struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472_StaticFields
-{
-	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___invariantInfo;
-};
 struct String_t_StaticFields
 {
 	String_t* ___Empty;
@@ -1977,6 +1835,161 @@ struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24  : public Runti
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
+struct SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9  : public RuntimeArray
+{
+	ALIGN_FIELD (8) SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* m_Items[1];
+
+	inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* GetAt(il2cpp_array_size_t i, il2cpp_array_size_t j) const
+	{
+		il2cpp_array_size_t iBound = bounds[0].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
+		il2cpp_array_size_t jBound = bounds[1].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
+
+		il2cpp_array_size_t index = i * jBound + j;
+		return m_Items[index];
+	}
+	inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29** GetAddressAt(il2cpp_array_size_t i, il2cpp_array_size_t j)
+	{
+		il2cpp_array_size_t iBound = bounds[0].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
+		il2cpp_array_size_t jBound = bounds[1].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
+
+		il2cpp_array_size_t index = i * jBound + j;
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t i, il2cpp_array_size_t j, SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* value)
+	{
+		il2cpp_array_size_t iBound = bounds[0].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
+		il2cpp_array_size_t jBound = bounds[1].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
+
+		il2cpp_array_size_t index = i * jBound + j;
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* GetAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j) const
+	{
+		il2cpp_array_size_t jBound = bounds[1].length;
+
+		il2cpp_array_size_t index = i * jBound + j;
+		return m_Items[index];
+	}
+	inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29** GetAddressAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j)
+	{
+		il2cpp_array_size_t jBound = bounds[1].length;
+
+		il2cpp_array_size_t index = i * jBound + j;
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j, SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* value)
+	{
+		il2cpp_array_size_t jBound = bounds[1].length;
+
+		il2cpp_array_size_t index = i * jBound + j;
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* m_Items[1];
+
+	inline TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
 {
 	ALIGN_FIELD (8) uint8_t m_Items[1];
@@ -2058,6 +2071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared (String_t* ___0_json, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___0_name, const RuntimeMethod* method) ;
@@ -2072,16 +2086,13 @@ inline void List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline (List_1_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BasePageScript_UnderLinerButtonPressedNumerator_m81EC8347B95CE66FFB26666FBF70A5C0A896383F (BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* __this, int32_t ___0_number, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnderLinerButtonPressedNumeratorU3Ed__9__ctor_mCBBDEFBB1075D7B335FC7A6267FF020AEA50D13A (U3CUnderLinerButtonPressedNumeratorU3Ed__9_t00B5FDEBBC2C40C5A68498389A40A424AD958AC4* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979 (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
 	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
 inline int32_t List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
 {
@@ -2105,6 +2116,8 @@ inline int32_t List_1_RemoveAll_m1D3CBAACE91557F72BF74D9572E9E7A435E5F338 (List_
 {
 	return ((  int32_t (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, Predicate_1_t0729156EF7F8B2C367BA6C92C091D97CDEC0B53F*, const RuntimeMethod*))List_1_RemoveAll_m1A8DE2A7640CC473609F3ADAC38FDB960520636D_gshared)(__this, ___0_match, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_BasePageSave_m6BBC25FD563D04712E7105497F50FFA94805FF7F (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_FillOrderNumbers_m685937631BB9FECA2E6B80C929E590A61BF2EB37 (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, bool ___0_deleted, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method)
 {
@@ -2118,6 +2131,7 @@ inline LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* GameObject_Ge
 {
 	return ((  LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_LoadLine_mEE142ADEF7EADD86CC2AC5C58C7B326AFA025EA4 (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, int32_t ___0_tableIndex, int32_t ___1_pageIndex, int32_t ___2_lineIndex, LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* ___3_line, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_ChangeOrderMainText_m54B8F92EE582A5ECB83BA23021AA190E71B0F36A (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, int32_t ___0_number, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_OpenPage_m43F5003476B4DC9D2BE83267E7099053071587F7 (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, int32_t ___0_number, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_EscapeButtonPressed_m5D71D4AD20A21B51442E3169CF7BA81C5320F3AE (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) ;
@@ -2160,18 +2174,25 @@ inline BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* Component_GetCo
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePageScript_PageReset_m486B683FECC7E475DC4274EC77D4A58DFC9BCDDF (BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___0_path1, String_t* ___1_path2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A (String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA (String_t* ___0_path, const RuntimeMethod* method) ;
+inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* JsonUtility_FromJson_TisSaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_m1AB04EBB393AB40EC3FB9FC2B514F72AABBDAD8B (String_t* ___0_json, const RuntimeMethod* method)
+{
+	return ((  SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* (*) (String_t*, const RuntimeMethod*))JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared)(___0_json, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1 (String_t* ___0_path, String_t* ___1_contents, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SaveData__ctor_m7E683A9CD703CB4058EEA6C1BBC22F4EDE2F76E5 (SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_mA8DA39B6324392BB93203A4D4CB85AF87231CB62_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) ;
 inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6 (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE (float* __this, String_t* ___0_format, RuntimeObject* ___1_provider, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -2185,7 +2206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71671
+// Method Definition Index: 71618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePageScript_Start_m7CCF3A552CC0D95705580E9D09DEE49E461E704C (BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2199,36 +2220,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePageScript_Start_m7CCF3A552CC0D95705
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:20>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:19>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral7831B7715AA09703BEA6DAB66D910E60EB689C3F, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:21>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:20>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = V_0;
 		NullCheck(L_1);
 		ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* L_2;
 		L_2 = GameObject_GetComponent_TisManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C_m3C0361A338E41D0C851083AE8D6E0C3EF8D47135(L_1, GameObject_GetComponent_TisManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C_m3C0361A338E41D0C851083AE8D6E0C3EF8D47135_RuntimeMethod_var);
 		__this->___manager = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___manager), (void*)L_2);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:23>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:22>
 		V_1 = 0;
 		goto IL_002b;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:26>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:25>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_3 = __this->____baseLines;
 		NullCheck(L_3);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_3, (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:23>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:22>
 		int32_t L_4 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:23>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:22>
 		int32_t L_5 = V_1;
 		if ((((int32_t)L_5) < ((int32_t)4)))
 		{
@@ -2236,25 +2257,25 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:28>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 71672
+// Method Definition Index: 71619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePageScript_UnderLinerButtonPressed_m8C2B369CB507CC342B8DBBCC6C785E91A7B8651B (BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* __this, int32_t ___0_underLinerNumber, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:32>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:31>
 		int32_t L_0 = ___0_underLinerNumber;
 		RuntimeObject* L_1;
 		L_1 = BasePageScript_UnderLinerButtonPressedNumerator_m81EC8347B95CE66FFB26666FBF70A5C0A896383F(__this, L_0, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:33>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 71673
+// Method Definition Index: 71620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BasePageScript_UnderLinerButtonPressedNumerator_m81EC8347B95CE66FFB26666FBF70A5C0A896383F (BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* __this, int32_t ___0_number, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2277,164 +2298,99 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BasePageScript_UnderLinerButto
 		return L_2;
 	}
 }
-// Method Definition Index: 71674
+// Method Definition Index: 71621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePageScript_PageReset_m486B683FECC7E475DC4274EC77D4A58DFC9BCDDF (BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral52F6D8D86BE461250F33D568AAB23DDB68F37769);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral62F76ABACF4198598ECF4AF90626FDA6060B5E1A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral88A820E8352B057A39566BC1AB02044E942FB5A4);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF5911D035D99B19B8B7F76A3CB2654BAA4BD3341);
 		s_Il2CppMethodInitialized = true;
 	}
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	int32_t V_1 = 0;
+	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:54>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____lineOnPosition;
-		NullCheck(L_0);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
-		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
-		V_0 = L_1;
-		String_t* L_2;
-		L_2 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_0), NULL);
-		String_t* L_3;
-		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral52F6D8D86BE461250F33D568AAB23DDB68F37769, L_2, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:55>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->____lineOffPosition;
-		NullCheck(L_4);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
-		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
-		V_0 = L_5;
-		String_t* L_6;
-		L_6 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_0), NULL);
-		String_t* L_7;
-		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF5911D035D99B19B8B7F76A3CB2654BAA4BD3341, L_6, NULL);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:57>
-		V_1 = 0;
-		goto IL_00f9;
+		V_0 = 0;
+		goto IL_0042;
 	}
 
-IL_0057:
+IL_0004:
 	{
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:59>
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_8 = __this->____baseLines;
-		int32_t L_9 = V_1;
-		NullCheck(L_8);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
-		L_10 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_8, L_9, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->____baseLines;
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_0, L_1, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_11;
-		L_11 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (L_11)
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_3)
 		{
-			goto IL_00f5;
+			goto IL_003e;
 		}
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:61>
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_12 = __this->____baseLines;
-		int32_t L_13 = V_1;
-		NullCheck(L_12);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
-		L_14 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_12, L_13, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
-		NullCheck(L_14);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
-		L_15 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_14, NULL);
-		NullCheck(L_15);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
-		L_16 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_15, NULL);
-		V_0 = L_16;
-		String_t* L_17;
-		L_17 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_0), NULL);
-		String_t* L_18;
-		L_18 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral62F76ABACF4198598ECF4AF90626FDA6060B5E1A, L_17, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_18, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:63>
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_19 = __this->____baseLines;
-		int32_t L_20 = V_1;
-		NullCheck(L_19);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
-		L_21 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_19, L_20, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
-		NullCheck(L_21);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
-		L_22 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_21, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = __this->____lineOffPosition;
-		NullCheck(L_23);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
-		L_24 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_23, NULL);
-		NullCheck(L_22);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_22, L_24, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:65>
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_25 = __this->____baseLines;
-		int32_t L_26 = V_1;
-		NullCheck(L_25);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27;
-		L_27 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_25, L_26, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
-		NullCheck(L_27);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
-		L_28 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_27, NULL);
-		NullCheck(L_28);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
-		L_29 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_28, NULL);
-		V_0 = L_29;
-		String_t* L_30;
-		L_30 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_0), NULL);
-		String_t* L_31;
-		L_31 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral88A820E8352B057A39566BC1AB02044E942FB5A4, L_30, NULL);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_31, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:60>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_4 = __this->____baseLines;
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_4, L_5, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_6);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_6, NULL);
+		ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* L_8 = __this->___manager;
+		NullCheck(L_8);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = L_8->____pageOffPosition;
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_9, NULL);
+		NullCheck(L_7);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_7, L_10, NULL);
 	}
 
-IL_00f5:
+IL_003e:
 	{
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:57>
-		int32_t L_32 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_32, 1));
+		int32_t L_11 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
-IL_00f9:
+IL_0042:
 	{
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:57>
-		int32_t L_33 = V_1;
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_34 = __this->____baseLines;
-		NullCheck(L_34);
-		int32_t L_35;
-		L_35 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_34, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
-		if ((((int32_t)L_33) < ((int32_t)L_35)))
+		int32_t L_12 = V_0;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_13 = __this->____baseLines;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_13, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_12) < ((int32_t)L_14)))
 		{
-			goto IL_0057;
+			goto IL_0004;
 		}
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:67>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 71675
+// Method Definition Index: 71622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePageScript_BaseLinesSort_m779A203BCB89FA1977DE967F66088ADE0801E6C7 (BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:71>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:66>
 		RuntimeObject* L_0;
 		L_0 = BasePageScript_BaseLineSortNumerator_mF0CB94338440D1424C34AA78156211302E4F7A97(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:72>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 71676
+// Method Definition Index: 71623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BasePageScript_BaseLineSortNumerator_mF0CB94338440D1424C34AA78156211302E4F7A97 (BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2453,7 +2409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BasePageScript_BaseLineSortNum
 		return L_1;
 	}
 }
-// Method Definition Index: 71677
+// Method Definition Index: 71624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePageScript__ctor_m12231FBE94C30F4455B9F11FE2862B59FAD94961 (BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2481,7 +2437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePageScript__ctor_m12231FBE94C30F4455
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71678
+// Method Definition Index: 71625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mD1716BD90EE08AE08F9A89EBCA16FA07929343EC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2498,7 +2454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mD1716BD90EE08AE08F9A89EB
 		return;
 	}
 }
-// Method Definition Index: 71679
+// Method Definition Index: 71626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC22FD1C28E171D3385096E8108C91A9F89E62941 (U3CU3Ec_t752BEAB90A40F003EFB1CF44FA1277D0CB556205* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2506,7 +2462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC22FD1C28E171D3385096E810
 		return;
 	}
 }
-// Method Definition Index: 71680
+// Method Definition Index: 71627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CBaseLineSortNumeratorU3Eb__12_0_m0464E6AD1F3DE75A3C1251C3F28CC80C19986349 (U3CU3Ec_t752BEAB90A40F003EFB1CF44FA1277D0CB556205* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2516,7 +2472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CBaseLineSortNumeratorU3Eb__12
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:78>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:73>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_gameObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2532,7 +2488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CBaseLineSortNumeratorU3Eb__12
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71681
+// Method Definition Index: 71628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBaseLineSortNumeratorU3Ed__12__ctor_m5C84E6FCF581574BB49FE539D1905601D237F8A1 (U3CBaseLineSortNumeratorU3Ed__12_t56A935E7ED47241FD49ADE9AD548DA21CBEB9F66* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -2542,14 +2498,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBaseLineSortNumeratorU3Ed__12__ctor_m
 		return;
 	}
 }
-// Method Definition Index: 71682
+// Method Definition Index: 71629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBaseLineSortNumeratorU3Ed__12_System_IDisposable_Dispose_m85F9223F66831B151103E01AC01B45EDCE7114A9 (U3CBaseLineSortNumeratorU3Ed__12_t56A935E7ED47241FD49ADE9AD548DA21CBEB9F66* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 71683
+// Method Definition Index: 71630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CBaseLineSortNumeratorU3Ed__12_MoveNext_m338859BC936549EE8A0C9CF6B4212CB3AAA97AE8 (U3CBaseLineSortNumeratorU3Ed__12_t56A935E7ED47241FD49ADE9AD548DA21CBEB9F66* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2595,7 +2551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CBaseLineSortNumeratorU3Ed__12_MoveNex
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:76>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:71>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -2607,7 +2563,7 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:78>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:73>
 		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_5 = V_1;
 		NullCheck(L_5);
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_6 = L_5->____baseLines;
@@ -2645,7 +2601,7 @@ IL_0063:
 
 IL_006b:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:80>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:75>
 		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_13 = V_1;
 		NullCheck(L_13);
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_14 = L_13->____baseLines;
@@ -2655,7 +2611,7 @@ IL_006b:
 
 IL_0077:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:80>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:75>
 		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_15 = V_1;
 		NullCheck(L_15);
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_16 = L_15->____baseLines;
@@ -2668,11 +2624,23 @@ IL_0077:
 		}
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:81>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:77>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_18 = V_1;
+		NullCheck(L_18);
+		ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* L_19 = L_18->___manager;
+		NullCheck(L_19);
+		ManagerScript_BasePageSave_m6BBC25FD563D04712E7105497F50FFA94805FF7F(L_19, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:78>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_20 = V_1;
+		NullCheck(L_20);
+		ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* L_21 = L_20->___manager;
+		NullCheck(L_21);
+		ManagerScript_FillOrderNumbers_m685937631BB9FECA2E6B80C929E590A61BF2EB37(L_21, (bool)1, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:79>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 71684
+// Method Definition Index: 71631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CBaseLineSortNumeratorU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9B1976C114F6359F920F71056E7B1C98D15C3712 (U3CBaseLineSortNumeratorU3Ed__12_t56A935E7ED47241FD49ADE9AD548DA21CBEB9F66* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2680,7 +2648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CBaseLineSortNumeratorU3Ed__
 		return L_0;
 	}
 }
-// Method Definition Index: 71685
+// Method Definition Index: 71632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBaseLineSortNumeratorU3Ed__12_System_Collections_IEnumerator_Reset_mE0F0472CD5CB12E68342A26C56822DFA95477DEA (U3CBaseLineSortNumeratorU3Ed__12_t56A935E7ED47241FD49ADE9AD548DA21CBEB9F66* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2689,7 +2657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBaseLineSortNumeratorU3Ed__12_System_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CBaseLineSortNumeratorU3Ed__12_System_Collections_IEnumerator_Reset_mE0F0472CD5CB12E68342A26C56822DFA95477DEA_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 71686
+// Method Definition Index: 71633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CBaseLineSortNumeratorU3Ed__12_System_Collections_IEnumerator_get_Current_m649274383BEBFE0A49A1B229CC942D4B58332859 (U3CBaseLineSortNumeratorU3Ed__12_t56A935E7ED47241FD49ADE9AD548DA21CBEB9F66* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2705,7 +2673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CBaseLineSortNumeratorU3Ed__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71687
+// Method Definition Index: 71634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnderLinerButtonPressedNumeratorU3Ed__9__ctor_mCBBDEFBB1075D7B335FC7A6267FF020AEA50D13A (U3CUnderLinerButtonPressedNumeratorU3Ed__9_t00B5FDEBBC2C40C5A68498389A40A424AD958AC4* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -2715,14 +2683,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnderLinerButtonPressedNumeratorU3Ed_
 		return;
 	}
 }
-// Method Definition Index: 71688
+// Method Definition Index: 71635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnderLinerButtonPressedNumeratorU3Ed__9_System_IDisposable_Dispose_m7C0AD0D3A40144C683555B0B7E4C33E4615CFA1A (U3CUnderLinerButtonPressedNumeratorU3Ed__9_t00B5FDEBBC2C40C5A68498389A40A424AD958AC4* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 71689
+// Method Definition Index: 71636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUnderLinerButtonPressedNumeratorU3Ed__9_MoveNext_mCCD19737927E8203DC49555CCFF617CB5F5D2EB9 (U3CUnderLinerButtonPressedNumeratorU3Ed__9_t00B5FDEBBC2C40C5A68498389A40A424AD958AC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2738,8 +2706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUnderLinerButtonPressedNumeratorU3Ed_
 	}
 	int32_t V_0 = 0;
 	BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* V_1 = NULL;
-	LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* V_2 = NULL;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state;
 		V_0 = L_0;
@@ -2748,111 +2715,133 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUnderLinerButtonPressedNumeratorU3Ed_
 		int32_t L_2 = V_0;
 		if (!L_2)
 		{
-			goto IL_0017;
+			goto IL_001a;
 		}
 	}
 	{
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) == ((int32_t)1)))
 		{
-			goto IL_0037;
+			goto IL_00c7;
 		}
 	}
 	{
 		return (bool)0;
 	}
 
-IL_0017:
+IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:37>
-		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.5f), NULL);
-		__this->___U3CU3E2__current = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_4);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_4 = V_1;
+		NullCheck(L_4);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_5 = L_4->____baseLines;
+		int32_t L_6 = __this->___number;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_5, L_6, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:39>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_9 = V_1;
+		NullCheck(L_9);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->____baseLineObject;
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_11 = V_1;
+		NullCheck(L_11);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = L_11->____container;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
+		L_13 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_10, L_12, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		V_2 = L_13;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:40>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_14 = V_1;
+		NullCheck(L_14);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_15 = L_14->____baseLines;
+		int32_t L_16 = __this->___number;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_2;
+		NullCheck(L_15);
+		List_1_set_Item_m53D4662B60804E1268DEDF93DC45766987395C35(L_15, L_16, L_17, List_1_set_Item_m53D4662B60804E1268DEDF93DC45766987395C35_RuntimeMethod_var);
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:43>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_18 = V_1;
+		NullCheck(L_18);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_19 = L_18->____baseLines;
+		int32_t L_20 = __this->___number;
+		NullCheck(L_19);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
+		L_21 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_19, L_20, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		__this->___U3ClineU3E5__2 = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3ClineU3E5__2), (void*)L_21);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:44>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___U3ClineU3E5__2;
+		NullCheck(L_22);
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_23;
+		L_23 = GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8(L_22, GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8_RuntimeMethod_var);
+		__this->___U3CscriptU3E5__3 = L_23;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CscriptU3E5__3), (void*)L_23);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:46>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_24 = V_1;
+		NullCheck(L_24);
+		ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* L_25 = L_24->___manager;
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_26 = V_1;
+		NullCheck(L_26);
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_27 = L_26->____tableScript;
+		NullCheck(L_27);
+		int32_t L_28 = L_27->____baseTableNumber;
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_29 = V_1;
+		NullCheck(L_29);
+		int32_t L_30 = L_29->____pageIndex;
+		int32_t L_31 = __this->___number;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_32 = __this->___U3CscriptU3E5__3;
+		NullCheck(L_25);
+		ManagerScript_LoadLine_mEE142ADEF7EADD86CC2AC5C58C7B326AFA025EA4(L_25, L_28, L_30, L_31, L_32, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:48>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_33 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_33, (0.5f), NULL);
+		__this->___U3CU3E2__current = L_33;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_33);
 		__this->___U3CU3E1__state = 1;
 		return (bool)1;
 	}
 
-IL_0037:
+IL_00c7:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:39>
-		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_5 = V_1;
-		NullCheck(L_5);
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_6 = L_5->____baseLines;
-		int32_t L_7 = __this->___number;
-		NullCheck(L_6);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
-		L_8 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_6, L_7, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_9;
-		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_9)
-		{
-			goto IL_007b;
-		}
-	}
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:41>
-		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_10 = V_1;
-		NullCheck(L_10);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = L_10->____baseLineObject;
-		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_12 = V_1;
-		NullCheck(L_12);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = L_12->____container;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
-		L_14 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_11, L_13, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-		V_3 = L_14;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:42>
-		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_15 = V_1;
-		NullCheck(L_15);
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_16 = L_15->____baseLines;
-		int32_t L_17 = __this->___number;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = V_3;
-		NullCheck(L_16);
-		List_1_set_Item_m53D4662B60804E1268DEDF93DC45766987395C35(L_16, L_17, L_18, List_1_set_Item_m53D4662B60804E1268DEDF93DC45766987395C35_RuntimeMethod_var);
-	}
-
-IL_007b:
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:45>
-		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_19 = V_1;
-		NullCheck(L_19);
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_20 = L_19->____baseLines;
-		int32_t L_21 = __this->___number;
-		NullCheck(L_20);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
-		L_22 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_20, L_21, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:46>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_22;
-		NullCheck(L_23);
-		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_24;
-		L_24 = GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8(L_23, GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8_RuntimeMethod_var);
-		V_2 = L_24;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:48>
-		NullCheck(L_23);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
-		L_25 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_23, NULL);
-		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_26 = V_1;
-		NullCheck(L_26);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = L_26->____lineOnPosition;
-		NullCheck(L_27);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
-		L_28 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_27, NULL);
-		NullCheck(L_25);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_25, L_28, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:49>
-		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_29 = V_2;
-		int32_t L_30 = __this->___number;
-		NullCheck(L_29);
-		LineObjectScript_ChangeOrderMainText_m54B8F92EE582A5ECB83BA23021AA190E71B0F36A(L_29, L_30, NULL);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:50>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = __this->___U3ClineU3E5__2;
+		NullCheck(L_34);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
+		L_35 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_34, NULL);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_36 = V_1;
+		NullCheck(L_36);
+		ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* L_37 = L_36->___manager;
+		NullCheck(L_37);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = L_37->____pageOnPosition;
+		NullCheck(L_38);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_38, NULL);
+		NullCheck(L_35);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_35, L_39, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:51>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_40 = __this->___U3CscriptU3E5__3;
+		int32_t L_41 = __this->___number;
+		NullCheck(L_40);
+		LineObjectScript_ChangeOrderMainText_m54B8F92EE582A5ECB83BA23021AA190E71B0F36A(L_40, L_41, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BasePageScript.cs:53>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 71690
+// Method Definition Index: 71637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUnderLinerButtonPressedNumeratorU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m01A5C6A57DEC8125FF21C44B00B12CB4F70CBA9D (U3CUnderLinerButtonPressedNumeratorU3Ed__9_t00B5FDEBBC2C40C5A68498389A40A424AD958AC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2860,7 +2849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUnderLinerButtonPressedNume
 		return L_0;
 	}
 }
-// Method Definition Index: 71691
+// Method Definition Index: 71638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnderLinerButtonPressedNumeratorU3Ed__9_System_Collections_IEnumerator_Reset_m79919E679AFEC17F76D2C6F26DCBD152F5AE1B9B (U3CUnderLinerButtonPressedNumeratorU3Ed__9_t00B5FDEBBC2C40C5A68498389A40A424AD958AC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2869,7 +2858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUnderLinerButtonPressedNumeratorU3Ed_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CUnderLinerButtonPressedNumeratorU3Ed__9_System_Collections_IEnumerator_Reset_m79919E679AFEC17F76D2C6F26DCBD152F5AE1B9B_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 71692
+// Method Definition Index: 71639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUnderLinerButtonPressedNumeratorU3Ed__9_System_Collections_IEnumerator_get_Current_mB4DD3BCB110DD8B2D0A9AAA8295DC21910B48A1F (U3CUnderLinerButtonPressedNumeratorU3Ed__9_t00B5FDEBBC2C40C5A68498389A40A424AD958AC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2885,20 +2874,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUnderLinerButtonPressedNume
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71693
+// Method Definition Index: 71640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseTableScript_OpenTableButton_mB300478C6512BDF669666E6D0DCEE49A1E71E83C (BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BaseTableScript.cs:11>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BaseTableScript.cs:13>
 		ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* L_0 = __this->___manager;
 		int32_t L_1 = __this->____baseTableNumber;
 		NullCheck(L_0);
 		ManagerScript_OpenPage_m43F5003476B4DC9D2BE83267E7099053071587F7(L_0, L_1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BaseTableScript.cs:12>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/BaseTableScript.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 71694
+// Method Definition Index: 71641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseTableScript__ctor_m8D46D0E099169D4D4D871530DB1A37B5A2723F7C (BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2914,7 +2903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseTableScript__ctor_m8D46D0E099169D4D4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71695
+// Method Definition Index: 71642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EscapeButtonScript_EscapeInitialized_m1B38CBE854CB7692EA2C1E1EF026658FD038CD12 (EscapeButtonScript_t89A3F0C1C23216BC5114C869F6843FA3245B08BB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2926,7 +2915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EscapeButtonScript_EscapeInitialized_m1B
 		return;
 	}
 }
-// Method Definition Index: 71696
+// Method Definition Index: 71643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EscapeButtonScript__ctor_mD73402F6BCED74CDCF0687B0050FC3E0B85DB799 (EscapeButtonScript_t89A3F0C1C23216BC5114C869F6843FA3245B08BB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2942,7 +2931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EscapeButtonScript__ctor_mD73402F6BCED74
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71697
+// Method Definition Index: 71644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_Start_m05AC125B291355EEEADAF7448A972E264596356B (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2952,7 +2941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_Start_m05AC125B291355EE
 		return;
 	}
 }
-// Method Definition Index: 71698
+// Method Definition Index: 71645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_StartInitialize_mDEC34A8151D2D4481B29A762FA5910AE3FCD009D (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3009,7 +2998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_StartInitialize_mDEC34A
 		return;
 	}
 }
-// Method Definition Index: 71699
+// Method Definition Index: 71646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_ChangeText_mBA86E3B667B223976FCA2F168F77045FF825051C (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3222,7 +3211,7 @@ IL_00c9:
 		return;
 	}
 }
-// Method Definition Index: 71700
+// Method Definition Index: 71647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_OrderNumberChangeTextFirst_m10DAABDC3A3BEE0BCD8C1100876127D76A1FC399 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3246,7 +3235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_OrderNumberChangeTextFi
 		return;
 	}
 }
-// Method Definition Index: 71701
+// Method Definition Index: 71648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_OrderNumberChangeTextSecond_mA7488E0655D69EE17635CD8BB281333453402686 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3279,7 +3268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_OrderNumberChangeTextSe
 		return;
 	}
 }
-// Method Definition Index: 71702
+// Method Definition Index: 71649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_OrderNumberButton_m3DCF21BED092C78DC5F57FB74F8BD88EB1E299EC (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3293,7 +3282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_OrderNumberButton_m3DCF
 		return;
 	}
 }
-// Method Definition Index: 71703
+// Method Definition Index: 71650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_BucketsButton_mEB3DEFEAC683EA70965E08CE1B2DB252C14A4988 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3307,7 +3296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_BucketsButton_mEB3DEFEA
 		return;
 	}
 }
-// Method Definition Index: 71704
+// Method Definition Index: 71651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_CapsButton_m8D5CDE7EFA529BA00279881A8C3C953C08853049 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3321,7 +3310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_CapsButton_m8D5CDE7EFA5
 		return;
 	}
 }
-// Method Definition Index: 71705
+// Method Definition Index: 71652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_BoxesButton_m70E58B3060EBDA9CCD8353AB40C71F8719892A4E (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3335,7 +3324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_BoxesButton_m70E58B3060
 		return;
 	}
 }
-// Method Definition Index: 71706
+// Method Definition Index: 71653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_ModifyBucketInputButton_mC1C7F70EBCD77A4BBEF37B8A7E2D93EE63DE6156 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3349,7 +3338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_ModifyBucketInputButton
 		return;
 	}
 }
-// Method Definition Index: 71707
+// Method Definition Index: 71654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_PalletsDoneButton_mD094C73E13609A81832954B7A23F712A45D774F9 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3363,7 +3352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_PalletsDoneButton_mD094
 		return;
 	}
 }
-// Method Definition Index: 71708
+// Method Definition Index: 71655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_PalletsTotalButton_mDFED382C000E0BCE0AACD6022AD73DCBA5BCEF2C (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3377,7 +3366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_PalletsTotalButton_mDFE
 		return;
 	}
 }
-// Method Definition Index: 71709
+// Method Definition Index: 71656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_BucketsTotal_m178FA3C1199B043E7D2DD532A4269F50D72C67CA (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3391,7 +3380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_BucketsTotal_m178FA3C11
 		return;
 	}
 }
-// Method Definition Index: 71710
+// Method Definition Index: 71657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_Calculate_m9D72B51441811837C19564869614EB7ECD1EE596 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3420,7 +3409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_Calculate_m9D72B5144181
 		return;
 	}
 }
-// Method Definition Index: 71711
+// Method Definition Index: 71658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_ExtendRetractButton_m02C355C0BC45841690C5BFC14BBAFCA6B147F874 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3452,30 +3441,75 @@ IL_0024:
 		return;
 	}
 }
-// Method Definition Index: 71712
+// Method Definition Index: 71659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_DeleteOrderButton_m5383C4F9D28EA140FEC25269749D830DFA3D43C6 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:173>
-		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_0 = __this->___pageScript;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->____order_main_text;
 		NullCheck(L_0);
-		BasePageScript_BaseLinesSort_m779A203BCB89FA1977DE967F66088ADE0801E6C7(L_0, NULL);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:174>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
-		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_1, NULL);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->____modify_bucket_input_text;
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:175>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->____pallets_done_text;
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:176>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = __this->____pallets_total_text;
+		NullCheck(L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:177>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = __this->____buckets_total_text;
+		NullCheck(L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_4, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:178>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->____buckets_left_text;
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:179>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->____orderNumberText;
+		NullCheck(L_6);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:180>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = __this->____bucketsText;
+		NullCheck(L_7);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:181>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = __this->____capsText;
+		NullCheck(L_8);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_8, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:182>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_9 = __this->____boxesText;
+		NullCheck(L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:183>
+		ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* L_10 = __this->___manager;
+		NullCheck(L_10);
+		ManagerScript_BasePageSave_m6BBC25FD563D04712E7105497F50FFA94805FF7F(L_10, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:185>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_11 = __this->___pageScript;
+		NullCheck(L_11);
+		BasePageScript_BaseLinesSort_m779A203BCB89FA1977DE967F66088ADE0801E6C7(L_11, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:186>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
+		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_12, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:187>
 		return;
 	}
 }
-// Method Definition Index: 71713
+// Method Definition Index: 71660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_ChangeOrderMainText_m54B8F92EE582A5ECB83BA23021AA190E71B0F36A (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, int32_t ___0_number, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3485,7 +3519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_ChangeOrderMainText_m54
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:179>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:191>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->____order_main_text;
 		int32_t L_1 = ___0_number;
 		int32_t L_2 = ((int32_t)il2cpp_codegen_add(L_1, 1));
@@ -3494,11 +3528,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript_ChangeOrderMainText_m54
 		L_4 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral3A0E45C3ED1EEF9373E3375EE9B05AE40D0C9ADC, L_3, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_4);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:180>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:192>
 		return;
 	}
 }
-// Method Definition Index: 71714
+// Method Definition Index: 71661
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LineObjectScript_SendStringToBasePage_mF7E3D691F5DB2F8AE2D2D4F7224FFD3F18A988C4 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/LineObjectScript.cs:196>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->____order_main_text;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_0);
+		return L_1;
+	}
+}
+// Method Definition Index: 71662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript__ctor_mBFFAAA35739E430CCCA09604949EED518017A909 (LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3522,70 +3568,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineObjectScript__ctor_mBFFAAA35739E430C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71715
+// Method Definition Index: 71663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_Start_m9E79CB01D56FF6B7130644F7ADEB22D7A525F9C2 (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50275DE48A6DA252A3D08AF54F3AB4673E3C0CCB);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE3B5A7F22E4949911A49EC00F567C6F689FE2129);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:24>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____pageOnPosition;
-		NullCheck(L_0);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
-		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
-		V_0 = L_1;
-		String_t* L_2;
-		L_2 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_0), NULL);
-		String_t* L_3;
-		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral50275DE48A6DA252A3D08AF54F3AB4673E3C0CCB, L_2, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:25>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->____pageOffPosition;
-		NullCheck(L_4);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
-		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
-		V_0 = L_5;
-		String_t* L_6;
-		L_6 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_0), NULL);
-		String_t* L_7;
-		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE3B5A7F22E4949911A49EC00F567C6F689FE2129, L_6, NULL);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:26>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:23>
 		ManagerScript_InitializeBaseTables_m1EB6E5FDC7D872CEDC506503C6353B340265FF2D(__this, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:27>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:24>
 		ManagerScript_InitializeBasePages_m00A1BF6F5F47A7F95C496C6112C441917A468683(__this, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:28>
-		bool L_8 = __this->____hasSaved;
-		if (!L_8)
-		{
-			goto IL_006a;
-		}
-	}
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:28>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:25>
 		ManagerScript_InitializeLoad_m0502D3BB065906D76A91509CF7CBECD8FD95CDB9(__this, NULL);
-	}
-
-IL_006a:
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:29>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->____escapeButton;
-		NullCheck(L_9);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)0, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:30>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:26>
+		ManagerScript_FillOrderNumbers_m685937631BB9FECA2E6B80C929E590A61BF2EB37(__this, (bool)0, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:27>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____escapeButton;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 71716
+// Method Definition Index: 71664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_InitializeBaseTables_m1EB6E5FDC7D872CEDC506503C6353B340265FF2D (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3597,40 +3600,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_InitializeBaseTables_m1EB6
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:35>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:33>
 		V_0 = 0;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:37>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:35>
 		V_1 = 0;
 		goto IL_0021;
 	}
 
 IL_0006:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:39>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:37>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____baseTables;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		int32_t L_2 = L_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:40>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:38>
 		NullCheck(L_3);
 		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_4;
 		L_4 = GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D(L_3, GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D_RuntimeMethod_var);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:41>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:39>
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		L_4->____baseTableNumber = L_5;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:42>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:40>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:37>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:35>
 		int32_t L_7 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:37>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:35>
 		int32_t L_8 = V_1;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_9 = __this->____baseTables;
 		NullCheck(L_9);
@@ -3640,81 +3643,23 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:44>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 71717
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_EscapeButtonPressed_m5D71D4AD20A21B51442E3169CF7BA81C5320F3AE (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:48>
-		int32_t L_0 = __this->____currentPage;
-		if ((!(((uint32_t)L_0) == ((uint32_t)(-1)))))
-		{
-			goto IL_000a;
-		}
-	}
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:48>
-		return;
-	}
-
-IL_000a:
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:50>
-		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1 = __this->____basePages;
-		int32_t L_2 = __this->____currentPage;
-		NullCheck(L_1);
-		int32_t L_3 = L_2;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		NullCheck(L_4);
-		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_5;
-		L_5 = Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12(L_4, Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:52>
-		NullCheck(L_5);
-		BasePageScript_PageReset_m486B683FECC7E475DC4274EC77D4A58DFC9BCDDF(L_5, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:54>
-		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_6 = __this->____basePages;
-		int32_t L_7 = __this->____currentPage;
-		NullCheck(L_6);
-		int32_t L_8 = L_7;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->____pageOffPosition;
-		NullCheck(L_10);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
-		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
-		NullCheck(L_9);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_9, L_11, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:56>
-		__this->____currentPage = (-1);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:57>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->____escapeButton;
-		NullCheck(L_12);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:58>
-		return;
-	}
-}
-// Method Definition Index: 71718
+// Method Definition Index: 71665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_InitializeBasePages_m00A1BF6F5F47A7F95C496C6112C441917A468683 (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:62>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:46>
 		V_0 = 0;
 		goto IL_0020;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:64>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:48>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = __this->____basePages;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -3726,14 +3671,14 @@ IL_0004:
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		NullCheck(L_3);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_3, L_5, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:62>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:46>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:62>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:46>
 		int32_t L_7 = V_0;
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_8 = __this->____basePages;
 		NullCheck(L_8);
@@ -3743,44 +3688,735 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:66>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 71719
+// Method Definition Index: 71666
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_EscapeButtonPressed_m5D71D4AD20A21B51442E3169CF7BA81C5320F3AE (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:54>
+		int32_t L_0 = __this->____currentPage;
+		if ((!(((uint32_t)L_0) == ((uint32_t)(-1)))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:54>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:56>
+		ManagerScript_BasePageSave_m6BBC25FD563D04712E7105497F50FFA94805FF7F(__this, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:58>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1 = __this->____basePages;
+		int32_t L_2 = __this->____currentPage;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_5;
+		L_5 = Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12(L_4, Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:60>
+		NullCheck(L_5);
+		BasePageScript_PageReset_m486B683FECC7E475DC4274EC77D4A58DFC9BCDDF(L_5, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:62>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_6 = __this->____basePages;
+		int32_t L_7 = __this->____currentPage;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->____pageOffPosition;
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
+		NullCheck(L_9);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_9, L_11, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:64>
+		__this->____currentPage = (-1);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:65>
+		ManagerScript_FillOrderNumbers_m685937631BB9FECA2E6B80C929E590A61BF2EB37(__this, (bool)0, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:66>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->____escapeButton;
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:67>
+		return;
+	}
+}
+// Method Definition Index: 71667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_InitializeLoad_m0502D3BB065906D76A91509CF7CBECD8FD95CDB9 (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisSaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_m1AB04EBB393AB40EC3FB9FC2B514F72AABBDAD8B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0133A431B27A6D11119B0474097113BBD7110B90);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB972D185E9E16578B5940AB37DC2598D5FB43875);
 		s_Il2CppMethodInitialized = true;
 	}
+	int32_t V_0 = 0;
+	BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* V_1 = NULL;
+	BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* V_2 = NULL;
+	String_t* V_3 = NULL;
+	String_t* V_4 = NULL;
+	SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* V_5 = NULL;
+	int32_t V_6 = 0;
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:70>
-		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		String_t* L_0;
-		L_0 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
-		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
-		String_t* L_1;
-		L_1 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_0, _stringLiteral0133A431B27A6D11119B0474097113BBD7110B90, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:72>
-		bool L_2;
-		L_2 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_1, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:71>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____baseTables;
+		NullCheck(L_0);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1 = __this->____basePages;
+		NullCheck(L_1);
+		il2cpp_array_size_t L_3[] = { (il2cpp_array_size_t)((int32_t)(((RuntimeArray*)L_0)->max_length)), (il2cpp_array_size_t)((int32_t)(((RuntimeArray*)L_1)->max_length)) };
+		SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9* L_2 = (SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9*)GenArrayNew(SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9_il2cpp_TypeInfo_var, L_3);
+		__this->____loadedPages = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____loadedPages), (void*)L_2);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:73>
+		V_0 = 0;
+		goto IL_01b5;
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:75>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = __this->____basePages;
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NullCheck(L_7);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_8;
+		L_8 = Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12(L_7, Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
+		V_1 = L_8;
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:76>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_9 = __this->____baseTables;
+		int32_t L_10 = V_0;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_12);
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_13;
+		L_13 = GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D(L_12, GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D_RuntimeMethod_var);
+		V_2 = L_13;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:77>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_15 = V_2;
+		NullCheck(L_15);
+		int32_t L_16 = L_15->____baseTableNumber;
+		int32_t L_17 = L_16;
+		RuntimeObject* L_18 = Box(il2cpp_defaults.int32_class, &L_17);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_19 = V_1;
+		NullCheck(L_19);
+		int32_t L_20 = L_19->____pageIndex;
+		int32_t L_21 = L_20;
+		RuntimeObject* L_22 = Box(il2cpp_defaults.int32_class, &L_21);
+		String_t* L_23;
+		L_23 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralB972D185E9E16578B5940AB37DC2598D5FB43875, L_18, L_22, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_14, L_23, NULL);
+		V_3 = L_24;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:79>
+		String_t* L_25 = V_3;
+		bool L_26;
+		L_26 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_01b1;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:81>
+		String_t* L_27 = V_3;
+		String_t* L_28;
+		L_28 = File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA(L_27, NULL);
+		V_4 = L_28;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:82>
+		String_t* L_29 = V_4;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_30;
+		L_30 = JsonUtility_FromJson_TisSaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_m1AB04EBB393AB40EC3FB9FC2B514F72AABBDAD8B(L_29, JsonUtility_FromJson_TisSaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_m1AB04EBB393AB40EC3FB9FC2B514F72AABBDAD8B_RuntimeMethod_var);
+		V_5 = L_30;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:84>
+		V_6 = 0;
+		goto IL_0179;
+	}
+
+IL_008d:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:86>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_31 = V_1;
+		NullCheck(L_31);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_32 = L_31->____baseLines;
+		int32_t L_33 = V_6;
+		NullCheck(L_32);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
+		L_34 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_32, L_33, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_35;
+		L_35 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_34, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_35)
+		{
+			goto IL_0173;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:88>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_36 = V_1;
+		NullCheck(L_36);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_37 = L_36->____baseLines;
+		int32_t L_38 = V_6;
+		NullCheck(L_37);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39;
+		L_39 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_37, L_38, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_39);
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_40;
+		L_40 = GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8(L_39, GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8_RuntimeMethod_var);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:89>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_41 = L_40;
+		NullCheck(L_41);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_42 = L_41->____orderNumberText;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_43 = V_5;
+		NullCheck(L_43);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44 = L_43->____orderNumberText;
+		int32_t L_45 = V_6;
+		NullCheck(L_44);
+		int32_t L_46 = L_45;
+		String_t* L_47 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		NullCheck(L_42);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_42, L_47);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:90>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_48 = L_41;
+		NullCheck(L_48);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_49 = L_48->____bucketsText;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_50 = V_5;
+		NullCheck(L_50);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_51 = L_50->____bucketsText;
+		int32_t L_52 = V_6;
+		NullCheck(L_51);
+		int32_t L_53 = L_52;
+		String_t* L_54 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		NullCheck(L_49);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_49, L_54);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:91>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_55 = L_48;
+		NullCheck(L_55);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_56 = L_55->____capsText;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_57 = V_5;
+		NullCheck(L_57);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_58 = L_57->____capsText;
+		int32_t L_59 = V_6;
+		NullCheck(L_58);
+		int32_t L_60 = L_59;
+		String_t* L_61 = (L_58)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		NullCheck(L_56);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_56, L_61);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:92>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_62 = L_55;
+		NullCheck(L_62);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_63 = L_62->____boxesText;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_64 = V_5;
+		NullCheck(L_64);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_65 = L_64->____boxesText;
+		int32_t L_66 = V_6;
+		NullCheck(L_65);
+		int32_t L_67 = L_66;
+		String_t* L_68 = (L_65)->GetAt(static_cast<il2cpp_array_size_t>(L_67));
+		NullCheck(L_63);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_63, L_68);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:93>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_69 = L_62;
+		NullCheck(L_69);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_70 = L_69->____pallets_done_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_71 = V_5;
+		NullCheck(L_71);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_72 = L_71->____palletsDoneText;
+		int32_t L_73 = V_6;
+		NullCheck(L_72);
+		int32_t L_74 = L_73;
+		String_t* L_75 = (L_72)->GetAt(static_cast<il2cpp_array_size_t>(L_74));
+		NullCheck(L_70);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_70, L_75);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:94>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_76 = L_69;
+		NullCheck(L_76);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_77 = L_76->____pallets_total_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_78 = V_5;
+		NullCheck(L_78);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_79 = L_78->____palletsTotalText;
+		int32_t L_80 = V_6;
+		NullCheck(L_79);
+		int32_t L_81 = L_80;
+		String_t* L_82 = (L_79)->GetAt(static_cast<il2cpp_array_size_t>(L_81));
+		NullCheck(L_77);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_77, L_82);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:95>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_83 = L_76;
+		NullCheck(L_83);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_84 = L_83->____buckets_total_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_85 = V_5;
+		NullCheck(L_85);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_86 = L_85->____bucketsTotalText;
+		int32_t L_87 = V_6;
+		NullCheck(L_86);
+		int32_t L_88 = L_87;
+		String_t* L_89 = (L_86)->GetAt(static_cast<il2cpp_array_size_t>(L_88));
+		NullCheck(L_84);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_84, L_89);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:96>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_90 = L_83;
+		NullCheck(L_90);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_91 = L_90->____buckets_left_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_92 = V_5;
+		NullCheck(L_92);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_93 = L_92->____bucketsLeftText;
+		int32_t L_94 = V_6;
+		NullCheck(L_93);
+		int32_t L_95 = L_94;
+		String_t* L_96 = (L_93)->GetAt(static_cast<il2cpp_array_size_t>(L_95));
+		NullCheck(L_91);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_91, L_96);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:97>
+		NullCheck(L_90);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_97 = L_90->____modify_bucket_input_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_98 = V_5;
+		NullCheck(L_98);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_99 = L_98->____modify_bucket_input_text;
+		int32_t L_100 = V_6;
+		NullCheck(L_99);
+		int32_t L_101 = L_100;
+		String_t* L_102 = (L_99)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
+		NullCheck(L_97);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_97, L_102);
+	}
+
+IL_0173:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:84>
+		int32_t L_103 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_103, 1));
+	}
+
+IL_0179:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:84>
+		int32_t L_104 = V_6;
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_105 = V_1;
+		NullCheck(L_105);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_106 = L_105->____baseLines;
+		NullCheck(L_106);
+		int32_t L_107;
+		L_107 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_106, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_104) < ((int32_t)L_107)))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:100>
+		String_t* L_108 = V_3;
+		String_t* L_109 = V_4;
+		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_108, L_109, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:102>
+		SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9* L_110 = __this->____loadedPages;
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_111 = V_2;
+		NullCheck(L_111);
+		int32_t L_112 = L_111->____baseTableNumber;
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_113 = V_1;
+		NullCheck(L_113);
+		int32_t L_114 = L_113->____pageIndex;
+		String_t* L_115 = V_4;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_116;
+		L_116 = JsonUtility_FromJson_TisSaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_m1AB04EBB393AB40EC3FB9FC2B514F72AABBDAD8B(L_115, JsonUtility_FromJson_TisSaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_m1AB04EBB393AB40EC3FB9FC2B514F72AABBDAD8B_RuntimeMethod_var);
+		NullCheck(L_110);
+		(L_110)->SetAt(L_112, L_114, L_116);
+	}
+
+IL_01b1:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:73>
+		int32_t L_117 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_117, 1));
+	}
+
+IL_01b5:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:73>
+		int32_t L_118 = V_0;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_119 = __this->____basePages;
+		NullCheck(L_119);
+		if ((((int32_t)L_118) < ((int32_t)((int32_t)(((RuntimeArray*)L_119)->max_length)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 71720
+// Method Definition Index: 71668
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_LoadLine_mEE142ADEF7EADD86CC2AC5C58C7B326AFA025EA4 (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, int32_t ___0_tableIndex, int32_t ___1_pageIndex, int32_t ___2_lineIndex, LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* ___3_line, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* V_0 = NULL;
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:108>
+		SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9* L_0 = __this->____loadedPages;
+		int32_t L_1 = ___0_tableIndex;
+		int32_t L_2 = ___1_pageIndex;
+		NullCheck(L_0);
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_3;
+		L_3 = (L_0)->GetAt(L_1, L_2);
+		V_0 = L_3;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:110>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_4 = V_0;
+		if (L_4)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:110>
+		return;
+	}
+
+IL_0012:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:112>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_5 = V_0;
+		NullCheck(L_5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5->____orderNumberText;
+		int32_t L_7 = ___2_lineIndex;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		String_t* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		bool L_10;
+		L_10 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_9, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_10)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:112>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_11 = ___3_line;
+		NullCheck(L_11);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = L_11->____orderNumberText;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_13 = V_0;
+		NullCheck(L_13);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = L_13->____orderNumberText;
+		int32_t L_15 = ___2_lineIndex;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		String_t* L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		NullCheck(L_12);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, L_17);
+	}
+
+IL_003a:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:113>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_18 = V_0;
+		NullCheck(L_18);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = L_18->____bucketsText;
+		int32_t L_20 = ___2_lineIndex;
+		NullCheck(L_19);
+		int32_t L_21 = L_20;
+		String_t* L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		bool L_23;
+		L_23 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_22, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_23)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:113>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_24 = ___3_line;
+		NullCheck(L_24);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25 = L_24->____bucketsText;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_26 = V_0;
+		NullCheck(L_26);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27 = L_26->____bucketsText;
+		int32_t L_28 = ___2_lineIndex;
+		NullCheck(L_27);
+		int32_t L_29 = L_28;
+		String_t* L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NullCheck(L_25);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_30);
+	}
+
+IL_0062:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:114>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_31 = V_0;
+		NullCheck(L_31);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = L_31->____capsText;
+		int32_t L_33 = ___2_lineIndex;
+		NullCheck(L_32);
+		int32_t L_34 = L_33;
+		String_t* L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		bool L_36;
+		L_36 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_35, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_36)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:114>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_37 = ___3_line;
+		NullCheck(L_37);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_38 = L_37->____capsText;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_39 = V_0;
+		NullCheck(L_39);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_40 = L_39->____capsText;
+		int32_t L_41 = ___2_lineIndex;
+		NullCheck(L_40);
+		int32_t L_42 = L_41;
+		String_t* L_43 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		NullCheck(L_38);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_38, L_43);
+	}
+
+IL_008a:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:115>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_44 = V_0;
+		NullCheck(L_44);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_45 = L_44->____boxesText;
+		int32_t L_46 = ___2_lineIndex;
+		NullCheck(L_45);
+		int32_t L_47 = L_46;
+		String_t* L_48 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_47));
+		bool L_49;
+		L_49 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_48, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_49)
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:115>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_50 = ___3_line;
+		NullCheck(L_50);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_51 = L_50->____boxesText;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_52 = V_0;
+		NullCheck(L_52);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = L_52->____boxesText;
+		int32_t L_54 = ___2_lineIndex;
+		NullCheck(L_53);
+		int32_t L_55 = L_54;
+		String_t* L_56 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		NullCheck(L_51);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_51, L_56);
+	}
+
+IL_00b2:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:116>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_57 = V_0;
+		NullCheck(L_57);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_58 = L_57->____palletsDoneText;
+		int32_t L_59 = ___2_lineIndex;
+		NullCheck(L_58);
+		int32_t L_60 = L_59;
+		String_t* L_61 = (L_58)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		bool L_62;
+		L_62 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_61, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_62)
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:116>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_63 = ___3_line;
+		NullCheck(L_63);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_64 = L_63->____pallets_done_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_65 = V_0;
+		NullCheck(L_65);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_66 = L_65->____palletsDoneText;
+		int32_t L_67 = ___2_lineIndex;
+		NullCheck(L_66);
+		int32_t L_68 = L_67;
+		String_t* L_69 = (L_66)->GetAt(static_cast<il2cpp_array_size_t>(L_68));
+		NullCheck(L_64);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_64, L_69);
+	}
+
+IL_00da:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:117>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_70 = V_0;
+		NullCheck(L_70);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_71 = L_70->____palletsTotalText;
+		int32_t L_72 = ___2_lineIndex;
+		NullCheck(L_71);
+		int32_t L_73 = L_72;
+		String_t* L_74 = (L_71)->GetAt(static_cast<il2cpp_array_size_t>(L_73));
+		bool L_75;
+		L_75 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_74, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_75)
+		{
+			goto IL_0102;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:117>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_76 = ___3_line;
+		NullCheck(L_76);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_77 = L_76->____pallets_total_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_78 = V_0;
+		NullCheck(L_78);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_79 = L_78->____palletsTotalText;
+		int32_t L_80 = ___2_lineIndex;
+		NullCheck(L_79);
+		int32_t L_81 = L_80;
+		String_t* L_82 = (L_79)->GetAt(static_cast<il2cpp_array_size_t>(L_81));
+		NullCheck(L_77);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_77, L_82);
+	}
+
+IL_0102:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:118>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_83 = V_0;
+		NullCheck(L_83);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_84 = L_83->____bucketsTotalText;
+		int32_t L_85 = ___2_lineIndex;
+		NullCheck(L_84);
+		int32_t L_86 = L_85;
+		String_t* L_87 = (L_84)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		bool L_88;
+		L_88 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_87, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_88)
+		{
+			goto IL_012a;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:118>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_89 = ___3_line;
+		NullCheck(L_89);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_90 = L_89->____buckets_total_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_91 = V_0;
+		NullCheck(L_91);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_92 = L_91->____bucketsTotalText;
+		int32_t L_93 = ___2_lineIndex;
+		NullCheck(L_92);
+		int32_t L_94 = L_93;
+		String_t* L_95 = (L_92)->GetAt(static_cast<il2cpp_array_size_t>(L_94));
+		NullCheck(L_90);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_90, L_95);
+	}
+
+IL_012a:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:119>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_96 = V_0;
+		NullCheck(L_96);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_97 = L_96->____bucketsLeftText;
+		int32_t L_98 = ___2_lineIndex;
+		NullCheck(L_97);
+		int32_t L_99 = L_98;
+		String_t* L_100 = (L_97)->GetAt(static_cast<il2cpp_array_size_t>(L_99));
+		bool L_101;
+		L_101 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_100, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_101)
+		{
+			goto IL_0152;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:119>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_102 = ___3_line;
+		NullCheck(L_102);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_103 = L_102->____buckets_left_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_104 = V_0;
+		NullCheck(L_104);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_105 = L_104->____bucketsLeftText;
+		int32_t L_106 = ___2_lineIndex;
+		NullCheck(L_105);
+		int32_t L_107 = L_106;
+		String_t* L_108 = (L_105)->GetAt(static_cast<il2cpp_array_size_t>(L_107));
+		NullCheck(L_103);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_103, L_108);
+	}
+
+IL_0152:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:120>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_109 = V_0;
+		NullCheck(L_109);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_110 = L_109->____modify_bucket_input_text;
+		int32_t L_111 = ___2_lineIndex;
+		NullCheck(L_110);
+		int32_t L_112 = L_111;
+		String_t* L_113 = (L_110)->GetAt(static_cast<il2cpp_array_size_t>(L_112));
+		bool L_114;
+		L_114 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_113, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (!L_114)
+		{
+			goto IL_017a;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:120>
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_115 = ___3_line;
+		NullCheck(L_115);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_116 = L_115->____modify_bucket_input_text;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_117 = V_0;
+		NullCheck(L_117);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_118 = L_117->____modify_bucket_input_text;
+		int32_t L_119 = ___2_lineIndex;
+		NullCheck(L_118);
+		int32_t L_120 = L_119;
+		String_t* L_121 = (L_118)->GetAt(static_cast<il2cpp_array_size_t>(L_120));
+		NullCheck(L_116);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_116, L_121);
+	}
+
+IL_017a:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:121>
+		return;
+	}
+}
+// Method Definition Index: 71669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_OpenPage_m43F5003476B4DC9D2BE83267E7099053071587F7 (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, int32_t ___0_number, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:82>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:127>
 		int32_t L_0 = ___0_number;
 		__this->____currentPage = L_0;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:84>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:128>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1 = __this->____basePages;
 		int32_t L_2 = ___0_number;
 		NullCheck(L_1);
@@ -3792,19 +4428,610 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_OpenPage_m43F5003476B4DC9D
 		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
 		NullCheck(L_4);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_4, L_6, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:85>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:129>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->____escapeButton;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:86>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:130>
 		return;
 	}
 }
-// Method Definition Index: 71721
+// Method Definition Index: 71670
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_BasePageSave_m6BBC25FD563D04712E7105497F50FFA94805FF7F (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB972D185E9E16578B5940AB37DC2598D5FB43875);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* V_1 = NULL;
+	BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* V_2 = NULL;
+	SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* V_3 = NULL;
+	String_t* V_4 = NULL;
+	int32_t V_5 = 0;
+	LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* V_6 = NULL;
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:134>
+		V_0 = 0;
+		goto IL_01a2;
+	}
+
+IL_0007:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:136>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = __this->____basePages;
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_4;
+		L_4 = Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12(L_3, Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
+		V_1 = L_4;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:137>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_5 = __this->____baseTables;
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_8);
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_9;
+		L_9 = GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D(L_8, GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D_RuntimeMethod_var);
+		V_2 = L_9;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:138>
+		SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9* L_10 = __this->____loadedPages;
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_11 = V_2;
+		NullCheck(L_11);
+		int32_t L_12 = L_11->____baseTableNumber;
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_13 = V_1;
+		NullCheck(L_13);
+		int32_t L_14 = L_13->____pageIndex;
+		NullCheck(L_10);
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_15;
+		L_15 = (L_10)->GetAt(L_12, L_14);
+		V_3 = L_15;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:140>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_16 = V_3;
+		if (L_16)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:140>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_17 = (SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29*)il2cpp_codegen_object_new(SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_il2cpp_TypeInfo_var);
+		SaveData__ctor_m7E683A9CD703CB4058EEA6C1BBC22F4EDE2F76E5(L_17, NULL);
+		V_3 = L_17;
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:142>
+		V_5 = 0;
+		goto IL_013b;
+	}
+
+IL_004c:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:144>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_18 = V_1;
+		NullCheck(L_18);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_19 = L_18->____baseLines;
+		int32_t L_20 = V_5;
+		NullCheck(L_19);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
+		L_21 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_19, L_20, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_21, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_22)
+		{
+			goto IL_0135;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:146>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_23 = V_1;
+		NullCheck(L_23);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_24 = L_23->____baseLines;
+		int32_t L_25 = V_5;
+		NullCheck(L_24);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26;
+		L_26 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_24, L_25, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_26);
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_27;
+		L_27 = GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8(L_26, GameObject_GetComponent_TisLineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23_m5CF4F9CFD46C4D68DB91F1EAFCBBD3D85B8740D8_RuntimeMethod_var);
+		V_6 = L_27;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:148>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_28 = V_3;
+		NullCheck(L_28);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_29 = L_28->____orderNumberText;
+		int32_t L_30 = V_5;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_31 = V_6;
+		NullCheck(L_31);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32 = L_31->____orderNumberText;
+		NullCheck(L_32);
+		String_t* L_33;
+		L_33 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_32);
+		NullCheck(L_29);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(L_30), (String_t*)L_33);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:149>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_34 = V_3;
+		NullCheck(L_34);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_35 = L_34->____bucketsText;
+		int32_t L_36 = V_5;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_37 = V_6;
+		NullCheck(L_37);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_38 = L_37->____bucketsText;
+		NullCheck(L_38);
+		String_t* L_39;
+		L_39 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_38);
+		NullCheck(L_35);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(L_36), (String_t*)L_39);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:150>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_40 = V_3;
+		NullCheck(L_40);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_41 = L_40->____capsText;
+		int32_t L_42 = V_5;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_43 = V_6;
+		NullCheck(L_43);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_44 = L_43->____capsText;
+		NullCheck(L_44);
+		String_t* L_45;
+		L_45 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_44);
+		NullCheck(L_41);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(L_42), (String_t*)L_45);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:151>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_46 = V_3;
+		NullCheck(L_46);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_47 = L_46->____boxesText;
+		int32_t L_48 = V_5;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_49 = V_6;
+		NullCheck(L_49);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_50 = L_49->____boxesText;
+		NullCheck(L_50);
+		String_t* L_51;
+		L_51 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_50);
+		NullCheck(L_47);
+		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (String_t*)L_51);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:152>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_52 = V_3;
+		NullCheck(L_52);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = L_52->____palletsDoneText;
+		int32_t L_54 = V_5;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_55 = V_6;
+		NullCheck(L_55);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_56 = L_55->____pallets_done_text;
+		NullCheck(L_56);
+		String_t* L_57;
+		L_57 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_56);
+		NullCheck(L_53);
+		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(L_54), (String_t*)L_57);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:153>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_58 = V_3;
+		NullCheck(L_58);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_59 = L_58->____palletsTotalText;
+		int32_t L_60 = V_5;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_61 = V_6;
+		NullCheck(L_61);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_62 = L_61->____pallets_total_text;
+		NullCheck(L_62);
+		String_t* L_63;
+		L_63 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_62);
+		NullCheck(L_59);
+		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(L_60), (String_t*)L_63);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:154>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_64 = V_3;
+		NullCheck(L_64);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_65 = L_64->____bucketsTotalText;
+		int32_t L_66 = V_5;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_67 = V_6;
+		NullCheck(L_67);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_68 = L_67->____buckets_total_text;
+		NullCheck(L_68);
+		String_t* L_69;
+		L_69 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_68);
+		NullCheck(L_65);
+		(L_65)->SetAt(static_cast<il2cpp_array_size_t>(L_66), (String_t*)L_69);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:155>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_70 = V_3;
+		NullCheck(L_70);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_71 = L_70->____bucketsLeftText;
+		int32_t L_72 = V_5;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_73 = V_6;
+		NullCheck(L_73);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_74 = L_73->____buckets_left_text;
+		NullCheck(L_74);
+		String_t* L_75;
+		L_75 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_74);
+		NullCheck(L_71);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(L_72), (String_t*)L_75);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:156>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_76 = V_3;
+		NullCheck(L_76);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_77 = L_76->____modify_bucket_input_text;
+		int32_t L_78 = V_5;
+		LineObjectScript_tD76AF8BF18BB81F4938D734A44B8CEB7A8A93E23* L_79 = V_6;
+		NullCheck(L_79);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_80 = L_79->____modify_bucket_input_text;
+		NullCheck(L_80);
+		String_t* L_81;
+		L_81 = VirtualFuncInvoker0< String_t* >::Invoke(65, L_80);
+		NullCheck(L_77);
+		(L_77)->SetAt(static_cast<il2cpp_array_size_t>(L_78), (String_t*)L_81);
+	}
+
+IL_0135:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:142>
+		int32_t L_82 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_82, 1));
+	}
+
+IL_013b:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:142>
+		int32_t L_83 = V_5;
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_84 = V_1;
+		NullCheck(L_84);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_85 = L_84->____baseLines;
+		NullCheck(L_85);
+		int32_t L_86;
+		L_86 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_85, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_83) < ((int32_t)L_86)))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:159>
+		SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9* L_87 = __this->____loadedPages;
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_88 = V_2;
+		NullCheck(L_88);
+		int32_t L_89 = L_88->____baseTableNumber;
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_90 = V_1;
+		NullCheck(L_90);
+		int32_t L_91 = L_90->____pageIndex;
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_92 = V_3;
+		NullCheck(L_87);
+		(L_87)->SetAt(L_89, L_91, L_92);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:160>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_93 = V_3;
+		String_t* L_94;
+		L_94 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_93, NULL);
+		V_4 = L_94;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:162>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		String_t* L_95;
+		L_95 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_96 = V_2;
+		NullCheck(L_96);
+		int32_t L_97 = L_96->____baseTableNumber;
+		int32_t L_98 = L_97;
+		RuntimeObject* L_99 = Box(il2cpp_defaults.int32_class, &L_98);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_100 = V_1;
+		NullCheck(L_100);
+		int32_t L_101 = L_100->____pageIndex;
+		int32_t L_102 = L_101;
+		RuntimeObject* L_103 = Box(il2cpp_defaults.int32_class, &L_102);
+		String_t* L_104;
+		L_104 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralB972D185E9E16578B5940AB37DC2598D5FB43875, L_99, L_103, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_105;
+		L_105 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_95, L_104, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:164>
+		String_t* L_106 = V_4;
+		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_105, L_106, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:134>
+		int32_t L_107 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_107, 1));
+	}
+
+IL_01a2:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:134>
+		int32_t L_108 = V_0;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_109 = __this->____basePages;
+		NullCheck(L_109);
+		if ((((int32_t)L_108) < ((int32_t)((int32_t)(((RuntimeArray*)L_109)->max_length)))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:166>
+		return;
+	}
+}
+// Method Definition Index: 71671
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript_FillOrderNumbers_m685937631BB9FECA2E6B80C929E590A61BF2EB37 (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, bool ___0_deleted, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDDEEFC930F66A5B2EF1F6605B73FE01CD78977D3);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* V_1 = NULL;
+	BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* V_2 = NULL;
+	SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* G_B6_0 = NULL;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* G_B5_0 = NULL;
+	String_t* G_B7_0 = NULL;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* G_B7_1 = NULL;
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:170>
+		V_0 = 0;
+		goto IL_0100;
+	}
+
+IL_0007:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:172>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____baseTables;
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_4;
+		L_4 = GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D(L_3, GameObject_GetComponent_TisBaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77_m320918BBD858EE2C0F9828C3EAA6F515D44CBC1D_RuntimeMethod_var);
+		V_1 = L_4;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:173>
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_5 = V_1;
+		NullCheck(L_5);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_6 = L_5->____basePage;
+		NullCheck(L_6);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_7;
+		L_7 = Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12(L_6, Component_GetComponent_TisBasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3_mC46A2F379CDC08A0378BF1B49DDC42D8C9B3CD12_RuntimeMethod_var);
+		V_2 = L_7;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:174>
+		SaveDataU5BU2CU5D_t8F1A85ACDBCF4AFCB913C9DDF7F2233BF10754D9* L_8 = __this->____loadedPages;
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_9 = V_1;
+		NullCheck(L_9);
+		int32_t L_10 = L_9->____baseTableNumber;
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_11 = V_1;
+		NullCheck(L_11);
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_12 = L_11->____basePage;
+		NullCheck(L_12);
+		int32_t L_13 = L_12->____pageIndex;
+		NullCheck(L_8);
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_14;
+		L_14 = (L_8)->GetAt(L_10, L_13);
+		V_3 = L_14;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:176>
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_15 = V_3;
+		if (!L_15)
+		{
+			goto IL_00fc;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:178>
+		bool L_16 = ___0_deleted;
+		if (L_16)
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:180>
+		bool L_17 = ___0_deleted;
+		bool L_18 = L_17;
+		RuntimeObject* L_19 = Box(il2cpp_defaults.boolean_class, &L_18);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_19, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:181>
+		V_4 = 0;
+		goto IL_008b;
+	}
+
+IL_0057:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:183>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:184>
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_20 = V_1;
+		NullCheck(L_20);
+		TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* L_21 = L_20->____orderNumberText;
+		int32_t L_22 = V_4;
+		NullCheck(L_21);
+		int32_t L_23 = L_22;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_25 = V_3;
+		NullCheck(L_25);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = L_25->____orderNumberText;
+		int32_t L_27 = V_4;
+		NullCheck(L_26);
+		int32_t L_28 = L_27;
+		String_t* L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		bool L_30;
+		L_30 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_29, NULL);
+		if (L_30)
+		{
+			G_B6_0 = L_24;
+			goto IL_007b;
+		}
+		G_B5_0 = L_24;
+	}
+	{
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_31 = V_3;
+		NullCheck(L_31);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = L_31->____orderNumberText;
+		int32_t L_33 = V_4;
+		NullCheck(L_32);
+		int32_t L_34 = L_33;
+		String_t* L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		G_B7_0 = L_35;
+		G_B7_1 = G_B5_0;
+		goto IL_0080;
+	}
+
+IL_007b:
+	{
+		G_B7_0 = _stringLiteralDDEEFC930F66A5B2EF1F6605B73FE01CD78977D3;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_0080:
+	{
+		NullCheck(G_B7_1);
+		VirtualActionInvoker1< String_t* >::Invoke(66, G_B7_1, G_B7_0);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:181>
+		int32_t L_36 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_008b:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:181>
+		int32_t L_37 = V_4;
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_38 = V_1;
+		NullCheck(L_38);
+		TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* L_39 = L_38->____orderNumberText;
+		NullCheck(L_39);
+		if ((((int32_t)L_37) < ((int32_t)((int32_t)(((RuntimeArray*)L_39)->max_length)))))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		goto IL_00fc;
+	}
+
+IL_0099:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:189>
+		bool L_40 = ___0_deleted;
+		bool L_41 = L_40;
+		RuntimeObject* L_42 = Box(il2cpp_defaults.boolean_class, &L_41);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_42, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:190>
+		V_5 = 0;
+		goto IL_00f0;
+	}
+
+IL_00a9:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:192>
+		BasePageScript_t2CB5E9B7415EA669D80CEEF925F71E8D49790BF3* L_43 = V_2;
+		NullCheck(L_43);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_44 = L_43->____baseLines;
+		int32_t L_45 = V_5;
+		NullCheck(L_44);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_46;
+		L_46 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_44, L_45, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_47;
+		L_47 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_46, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_47)
+		{
+			goto IL_00d3;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:192>
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_48 = V_1;
+		NullCheck(L_48);
+		TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* L_49 = L_48->____orderNumberText;
+		int32_t L_50 = V_5;
+		NullCheck(L_49);
+		int32_t L_51 = L_50;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_52 = (L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_51));
+		NullCheck(L_52);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_52, _stringLiteralDDEEFC930F66A5B2EF1F6605B73FE01CD78977D3);
+		goto IL_00ea;
+	}
+
+IL_00d3:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:193>
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_53 = V_1;
+		NullCheck(L_53);
+		TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* L_54 = L_53->____orderNumberText;
+		int32_t L_55 = V_5;
+		NullCheck(L_54);
+		int32_t L_56 = L_55;
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_57 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* L_58 = V_3;
+		NullCheck(L_58);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_59 = L_58->____orderNumberText;
+		int32_t L_60 = V_5;
+		NullCheck(L_59);
+		int32_t L_61 = L_60;
+		String_t* L_62 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		NullCheck(L_57);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_57, L_62);
+	}
+
+IL_00ea:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:190>
+		int32_t L_63 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_63, 1));
+	}
+
+IL_00f0:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:190>
+		int32_t L_64 = V_5;
+		BaseTableScript_t17A7F16C2F12DE6A81CD23AC3156E94884CECA77* L_65 = V_1;
+		NullCheck(L_65);
+		TMP_TextU5BU5D_t12384CBAF397196B9A7886087BDC8C19D800C24F* L_66 = L_65->____orderNumberText;
+		NullCheck(L_66);
+		if ((((int32_t)L_64) < ((int32_t)((int32_t)(((RuntimeArray*)L_66)->max_length)))))
+		{
+			goto IL_00a9;
+		}
+	}
+
+IL_00fc:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:170>
+		int32_t L_67 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_67, 1));
+	}
+
+IL_0100:
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:170>
+		int32_t L_68 = V_0;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_69 = __this->____baseTables;
+		NullCheck(L_69);
+		if ((((int32_t)L_68) < ((int32_t)((int32_t)(((RuntimeArray*)L_69)->max_length)))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:197>
+		return;
+	}
+}
+// Method Definition Index: 71672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript__ctor_mF92C13771AF3B7B0F08CF08A3383CF61E8C12A4F (ManagerScript_t380729AC8251D88F63EE083C6609A6111219A38C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:17>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/ManagerScript.cs:16>
 		__this->____currentPage = (-1);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -3818,10 +5045,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagerScript__ctor_mF92C13771AF3B7B0F08
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71722
+// Method Definition Index: 71673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SaveData__ctor_m7E683A9CD703CB4058EEA6C1BBC22F4EDE2F76E5 (SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/Serialization/SaveData.cs:6>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
+		__this->____orderNumberText = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____orderNumberText), (void*)L_0);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/Serialization/SaveData.cs:7>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
+		__this->____bucketsText = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____bucketsText), (void*)L_1);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/Serialization/SaveData.cs:8>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
+		__this->____capsText = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____capsText), (void*)L_2);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/Serialization/SaveData.cs:9>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
+		__this->____boxesText = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____boxesText), (void*)L_3);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/Serialization/SaveData.cs:10>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
+		__this->____palletsDoneText = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____palletsDoneText), (void*)L_4);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/Serialization/SaveData.cs:11>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
+		__this->____palletsTotalText = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____palletsTotalText), (void*)L_5);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/Serialization/SaveData.cs:12>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
+		__this->____bucketsTotalText = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____bucketsTotalText), (void*)L_6);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/Serialization/SaveData.cs:13>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
+		__this->____bucketsLeftText = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____bucketsLeftText), (void*)L_7);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Remia Order Calculator/Assets/Scripts/Serialization/SaveData.cs:14>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
+		__this->____modify_bucket_input_text = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____modify_bucket_input_text), (void*)L_8);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -3834,7 +5103,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SaveData__ctor_m7E683A9CD703CB4058EEA6C1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71723
+// Method Definition Index: 71674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3868,7 +5137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 71724
+// Method Definition Index: 71675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3973,16 +5242,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 35113
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
-{
-	{
-		String_t* L_0;
-		L_0 = Vector3_ToString_mA8DA39B6324392BB93203A4D4CB85AF87231CB62_inline(__this, (String_t*)NULL, (RuntimeObject*)NULL, NULL);
-		return L_0;
-	}
-}
-// Method Definition Index: 55031
+// Method Definition Index: 55057
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SubmitEvent_tF7E2843B6A79D94B8EEEA259707F77BD1773B500* TMP_InputField_get_onSubmit_mAA494FA0B3CFFB2916B399BD5D87C2E1AA637B90_inline (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3991,7 +5251,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SubmitEvent_tF7E2843B6A79D94B8EEE
 		return L_0;
 	}
 }
-// Method Definition Index: 20766
+// Method Definition Index: 20770
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -4029,89 +5289,11 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 20756
+// Method Definition Index: 20760
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0 = __this->____size;
 		return L_0;
-	}
-}
-// Method Definition Index: 35114
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_mA8DA39B6324392BB93203A4D4CB85AF87231CB62_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3F3FD3EFA55E39E450A9A4CE66CD7B259403D44E);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	bool V_1 = false;
-	String_t* V_2 = NULL;
-	{
-		String_t* L_0 = ___0_format;
-		bool L_1;
-		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		___0_format = _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748;
-	}
-
-IL_0012:
-	{
-		RuntimeObject* L_3 = ___1_formatProvider;
-		V_1 = (bool)((((RuntimeObject*)(RuntimeObject*)L_3) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		bool L_4 = V_1;
-		if (!L_4)
-		{
-			goto IL_0026;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_5;
-		L_5 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		NullCheck(L_5);
-		NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* L_6;
-		L_6 = VirtualFuncInvoker0< NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* >::Invoke(14, L_5);
-		___1_formatProvider = L_6;
-	}
-
-IL_0026:
-	{
-		float* L_7 = (float*)(&__this->___x);
-		String_t* L_8 = ___0_format;
-		RuntimeObject* L_9 = ___1_formatProvider;
-		String_t* L_10;
-		L_10 = Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE(L_7, L_8, L_9, NULL);
-		float* L_11 = (float*)(&__this->___y);
-		String_t* L_12 = ___0_format;
-		RuntimeObject* L_13 = ___1_formatProvider;
-		String_t* L_14;
-		L_14 = Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE(L_11, L_12, L_13, NULL);
-		float* L_15 = (float*)(&__this->___z);
-		String_t* L_16 = ___0_format;
-		RuntimeObject* L_17 = ___1_formatProvider;
-		String_t* L_18;
-		L_18 = Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE(L_15, L_16, L_17, NULL);
-		String_t* L_19;
-		L_19 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral3F3FD3EFA55E39E450A9A4CE66CD7B259403D44E, L_10, L_14, L_18, NULL);
-		V_2 = L_19;
-		goto IL_005a;
-	}
-
-IL_005a:
-	{
-		String_t* L_20 = V_2;
-		return L_20;
 	}
 }
