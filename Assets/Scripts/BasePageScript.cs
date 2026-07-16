@@ -10,9 +10,6 @@ public class BasePageScript : MonoBehaviour
     [SerializeField] private GameObject _baseLineObject;
     [SerializeField] private Transform _container;
 
-    [SerializeField] private Transform _lineOnPosition;
-    [SerializeField] private Transform _lineOffPosition;
-
     private ManagerScript manager;
 
     private void Start()
@@ -45,7 +42,7 @@ public class BasePageScript : MonoBehaviour
         GameObject line = _baseLines[number];
         LineObjectScript script = line.GetComponent<LineObjectScript>();
 
-        line.transform.position = _lineOnPosition.position;
+        line.transform.position = manager._pageOnPosition.position;
         script.ChangeOrderMainText(number);
     }
 
@@ -54,7 +51,7 @@ public class BasePageScript : MonoBehaviour
         for (int i = 0; i < _baseLines.Count; i++)
         {
             if (_baseLines[i] == null) continue;
-            _baseLines[i].transform.position = _lineOffPosition.position;
+            _baseLines[i].transform.position = manager._pageOffPosition.position;
         }
     }
 
