@@ -9,6 +9,7 @@ public class BasePageScript : MonoBehaviour
 
     [SerializeField] private GameObject _baseLineObject;
     [SerializeField] private Transform _container;
+    public int _pageIndex;
 
     private ManagerScript manager;
 
@@ -31,7 +32,6 @@ public class BasePageScript : MonoBehaviour
 
     private IEnumerator UnderLinerButtonPressedNumerator(int number)
     {
-        yield return new WaitForSeconds(0.5f);
 
         if (_baseLines[number] == null)
         {
@@ -41,9 +41,13 @@ public class BasePageScript : MonoBehaviour
 
         GameObject line = _baseLines[number];
         LineObjectScript script = line.GetComponent<LineObjectScript>();
-
+        manager.LoadLine(_pageIndex, number, script);
+        
+        yield return new WaitForSeconds(0.5f);
+        
         line.transform.position = manager._pageOnPosition.position;
         script.ChangeOrderMainText(number);
+
     }
 
     public void PageReset()

@@ -2986,6 +2986,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BaseTableScript
   manager: {fileID: 170098245}
   _baseTableNumber: 2
+  _orderNumberText:
+  - {fileID: 73795509}
+  - {fileID: 2067780055}
+  - {fileID: 977781573}
+  - {fileID: 965381823}
+  - {fileID: 333287296}
 --- !u!1 &406202782
 GameObject:
   m_ObjectHideFlags: 0
@@ -4146,6 +4152,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BaseTableScript
   manager: {fileID: 170098245}
   _baseTableNumber: 4
+  _orderNumberText:
+  - {fileID: 956939573}
+  - {fileID: 719459443}
+  - {fileID: 848466612}
+  - {fileID: 2140683679}
+  - {fileID: 1675498716}
 --- !u!1 &513109134
 GameObject:
   m_ObjectHideFlags: 0
@@ -4513,6 +4525,7 @@ MonoBehaviour:
   _baseLines: []
   _baseLineObject: {fileID: 8621103229983866889, guid: 4ea86178ea7db2b48b3c37a090ef7cfd, type: 3}
   _container: {fileID: 2139382503}
+  _pageIndex: 4
 --- !u!1 &521869217
 GameObject:
   m_ObjectHideFlags: 0
@@ -6791,6 +6804,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BaseTableScript
   manager: {fileID: 170098245}
   _baseTableNumber: 5
+  _orderNumberText:
+  - {fileID: 481963949}
+  - {fileID: 1004857285}
+  - {fileID: 1577785219}
+  - {fileID: 569051367}
+  - {fileID: 1648932404}
 --- !u!1 &812957121
 GameObject:
   m_ObjectHideFlags: 0
@@ -9719,6 +9738,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BaseTableScript
   manager: {fileID: 170098245}
   _baseTableNumber: 0
+  _orderNumberText:
+  - {fileID: 1360724780}
+  - {fileID: 1077560219}
+  - {fileID: 1338390397}
+  - {fileID: 247717214}
+  - {fileID: 1582705803}
 --- !u!1 &1093708933
 GameObject:
   m_ObjectHideFlags: 0
@@ -11122,6 +11147,7 @@ MonoBehaviour:
   _baseLines: []
   _baseLineObject: {fileID: 8621103229983866889, guid: 4ea86178ea7db2b48b3c37a090ef7cfd, type: 3}
   _container: {fileID: 1424567800}
+  _pageIndex: 3
 --- !u!1 &1372999359
 GameObject:
   m_ObjectHideFlags: 0
@@ -11576,6 +11602,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BaseTableScript
   manager: {fileID: 170098245}
   _baseTableNumber: 1
+  _orderNumberText:
+  - {fileID: 347779026}
+  - {fileID: 288894898}
+  - {fileID: 1559628134}
+  - {fileID: 1746522189}
+  - {fileID: 1831671108}
 --- !u!1 &1424567799
 GameObject:
   m_ObjectHideFlags: 0
@@ -12421,6 +12453,7 @@ MonoBehaviour:
   _baseLines: []
   _baseLineObject: {fileID: 8621103229983866889, guid: 4ea86178ea7db2b48b3c37a090ef7cfd, type: 3}
   _container: {fileID: 872296747}
+  _pageIndex: 1
 --- !u!1 &1559628132
 GameObject:
   m_ObjectHideFlags: 0
@@ -13934,6 +13967,7 @@ MonoBehaviour:
   _baseLines: []
   _baseLineObject: {fileID: 8621103229983866889, guid: 4ea86178ea7db2b48b3c37a090ef7cfd, type: 3}
   _container: {fileID: 1359316424}
+  _pageIndex: 2
 --- !u!1 &1710203129
 GameObject:
   m_ObjectHideFlags: 0
@@ -14035,6 +14069,7 @@ MonoBehaviour:
   _baseLines: []
   _baseLineObject: {fileID: 8621103229983866889, guid: 4ea86178ea7db2b48b3c37a090ef7cfd, type: 3}
   _container: {fileID: 74894115}
+  _pageIndex: 5
 --- !u!1 &1746522187
 GameObject:
   m_ObjectHideFlags: 0
@@ -14347,6 +14382,7 @@ MonoBehaviour:
   _baseLines: []
   _baseLineObject: {fileID: 8621103229983866889, guid: 4ea86178ea7db2b48b3c37a090ef7cfd, type: 3}
   _container: {fileID: 1921383413}
+  _pageIndex: 0
 --- !u!1 &1818770532
 GameObject:
   m_ObjectHideFlags: 0
@@ -15820,6 +15856,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BaseTableScript
   manager: {fileID: 170098245}
   _baseTableNumber: 3
+  _orderNumberText:
+  - {fileID: 1101552845}
+  - {fileID: 1879789256}
+  - {fileID: 1871516072}
+  - {fileID: 454678485}
+  - {fileID: 568466948}
 --- !u!1 &1921383412
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,17 +11,17 @@ public class LineObjectScript : MonoBehaviour
     private BasePageScript pageScript;
 
     [Header("Texts")]
-    [SerializeField] private TMP_Text _order_main_text;
-    [SerializeField] private TMP_Text _modify_bucket_input_text;
-    [SerializeField] private TMP_Text _pallets_done_text;
-    [SerializeField] private TMP_Text _pallets_total_text;
-    [SerializeField] private TMP_Text _buckets_total_text;
-    [SerializeField] private TMP_Text _buckets_left_text;
+    public TMP_Text _order_main_text;
+    public TMP_Text _modify_bucket_input_text;
+    public TMP_Text _pallets_done_text;
+    public TMP_Text _pallets_total_text;
+    public TMP_Text _buckets_total_text;
+    public TMP_Text _buckets_left_text;
 
-    [SerializeField] private TMP_Text _orderNumberText;
-    [SerializeField] private TMP_Text _bucketsText;
-    [SerializeField] private TMP_Text _capsText;
-    [SerializeField] private TMP_Text _boxesText;
+    public TMP_Text _orderNumberText;
+    public TMP_Text _bucketsText;
+    public TMP_Text _capsText;
+    public TMP_Text _boxesText;
 
     //[Header("Data")]
 
@@ -179,5 +179,9 @@ public class LineObjectScript : MonoBehaviour
         _order_main_text.text = $"ORDER #{number + 1}";
     }
 
+    public string SendStringToBasePage()
+    {
+        return _order_main_text.text;
+    }
 
 }

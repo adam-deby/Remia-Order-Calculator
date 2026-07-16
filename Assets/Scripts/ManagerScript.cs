@@ -13,16 +13,16 @@ public class ManagerScript : MonoBehaviour
     [Header("Buttons")]
     [SerializeField] private GameObject _escapeButton;
 
-    private bool _hasSaved;
     private int _currentPage = -1;
     private BasePageScript pageScript;
+    private SaveData[] _loadedPages;
 
 
     private void Start()
     {
         InitializeBaseTables();
         InitializeBasePages();
-        if (_hasSaved) InitializeLoad();
+        InitializeLoad();
         _escapeButton.SetActive(false);
     }
 
@@ -40,9 +40,19 @@ public class ManagerScript : MonoBehaviour
         }
     }
 
+    private void InitializeBasePages()
+    {
+        for (int i = 0; i < _basePages.Length; i++)
+        {
+            _basePages[i].position = _pageOffPosition.position;
+        }
+    }
+
     public void EscapeButtonPressed()
     {
         if (_currentPage == -1) return;
+
+        BasePageSave();
 
         BasePageScript script = _basePages[_currentPage].GetComponent<BasePageScript>();
 
@@ -54,22 +64,57 @@ public class ManagerScript : MonoBehaviour
         _escapeButton.SetActive(false);
     }
 
-    private void InitializeBasePages()
+    public void InitializeLoad()
     {
+        _loadedPages = new SaveData[_basePages.Length];
+
         for (int i = 0; i < _basePages.Length; i++)
         {
-            _basePages[i].position = _pageOffPosition.position;
+            BasePageScript page = _basePages[i].GetComponent<BasePageScript>();
+            string path = Path.Combine(Application.persistentDataPath, $"BasePage{page._pageIndex}.json");
+
+            if (!File.Exists(path)) continue;
+
+            string json = File.ReadAllText(path);
+            SaveData saveData = JsonUtility.FromJson<SaveData>(json);
+
+            for (int j = 0; j < page._baseLines.Count; j++)
+            {
+                if (page._baseLines[j] == null) continue;
+
+                LineObjectScript line = page._baseLines[j].GetComponent<LineObjectScript>();
+                line._orderNumberText.text = saveData._orderNumberText[j];
+                line._bucketsText.text = saveData._bucketsText[j];
+                line._capsText.text = saveData._capsText[j];
+                line._boxesText.text = saveData._boxesText[j];
+                line._pallets_done_text.text = saveData._palletsDoneText[j];
+                line._pallets_total_text.text = saveData._palletsTotalText[j];
+                line._buckets_total_text.text = saveData._bucketsTotalText[j];
+                line._buckets_left_text.text = saveData._bucketsLeftText[j];
+                line._modify_bucket_input_text.text = saveData._modify_bucket_input_text[j];
+            }
+
+            File.WriteAllText(path, json);
+
+            _loadedPages[i] = JsonUtility.FromJson<SaveData>(json);
         }
     }
 
-    private void InitializeLoad()
+    public void LoadLine(int pageIndex, int lineIndex, LineObjectScript line)
     {
-        string path = Path.Combine(Application.persistentDataPath, "save.json");
+        SaveData saveData = _loadedPages[pageIndex];
 
-        if (File.Exists(path)) // can be loaded
-        {
-            // code for loading
-        }
+        if (saveData == null) return;
+
+        if (saveData._orderNumberText[lineIndex] != "") line._orderNumberText.text = saveData._orderNumberText[lineIndex];
+        if (saveData._bucketsText[lineIndex] != "") line._bucketsText.text = saveData._bucketsText[lineIndex];
+        if (saveData._capsText[lineIndex] != "") line._capsText.text = saveData._capsText[lineIndex];
+        if (saveData._boxesText[lineIndex] != "") line._boxesText.text = saveData._boxesText[lineIndex];
+        if (saveData._palletsDoneText[lineIndex] != "") line._pallets_done_text.text = saveData._palletsDoneText[lineIndex];
+        if (saveData._palletsTotalText[lineIndex] != "") line._pallets_total_text.text = saveData._palletsTotalText[lineIndex];
+        if (saveData._bucketsTotalText[lineIndex] != "") line._buckets_total_text.text = saveData._bucketsTotalText[lineIndex];
+        if (saveData._bucketsLeftText[lineIndex] != "") line._buckets_left_text.text = saveData._bucketsLeftText[lineIndex];
+        if (saveData._modify_bucket_input_text[lineIndex] != "") line._modify_bucket_input_text.text = saveData._modify_bucket_input_text[lineIndex];
     }
 
     #endregion
@@ -77,8 +122,42 @@ public class ManagerScript : MonoBehaviour
     public void OpenPage(int number)
     {
         _currentPage = number;
-
         _basePages[number].position = _pageOnPosition.position;
         _escapeButton.SetActive(true);
+    }
+
+    public void BasePageSave()
+    {
+        for (int i = 0; i < _basePages.Length; i++)
+        {
+            BasePageScript page = _basePages[i].GetComponent<BasePageScript>();
+            SaveData saveData = _loadedPages[page._pageIndex];
+
+            if (saveData == null) saveData = new SaveData();
+
+            for (int j = 0; j < page._baseLines.Count; j++)
+            {
+                if (page._baseLines[j] == null) continue;
+
+                LineObjectScript line = page._baseLines[j].GetComponent<LineObjectScript>();
+
+                saveData._orderNumberText[j] = line._orderNumberText.text;
+                saveData._bucketsText[j] = line._bucketsText.text;
+                saveData._capsText[j] = line._capsText.text;
+                saveData._boxesText[j] = line._boxesText.text;
+                saveData._palletsDoneText[j] = line._pallets_done_text.text;
+                saveData._palletsTotalText[j] = line._pallets_total_text.text;
+                saveData._bucketsTotalText[j] = line._buckets_total_text.text;
+                saveData._bucketsLeftText[j] = line._buckets_left_text.text;
+                saveData._modify_bucket_input_text[j] = line._modify_bucket_input_text.text;
+            }
+
+            _loadedPages[page._pageIndex] = saveData;
+            string json = JsonUtility.ToJson(saveData);
+
+            string path = Path.Combine(Application.persistentDataPath,$"BasePage{page._pageIndex}.json");
+
+            File.WriteAllText(path, json);
+        }
     }
 }
