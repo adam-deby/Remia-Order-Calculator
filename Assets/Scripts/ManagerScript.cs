@@ -177,7 +177,6 @@ public class ManagerScript : MonoBehaviour
 
             if (!deleted)
             {
-                Debug.Log(deleted);
                 for (int j = 0; j < table._orderNumberText.Length; j++)
                 {
                     table._orderNumberText[j].text = string.IsNullOrEmpty(saveData._orderNumberText[j])
@@ -186,7 +185,6 @@ public class ManagerScript : MonoBehaviour
             }
             else
             {
-                Debug.Log(deleted);
                 for (int j = 0; j < table._orderNumberText.Length; j++)
                 {
                     if (page._baseLines[j] == null) table._orderNumberText[j].text = "_____.___";
